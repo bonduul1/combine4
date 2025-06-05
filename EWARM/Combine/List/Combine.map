@@ -1,0 +1,2685 @@
+###############################################################################
+#
+# IAR ELF Linker V8.11.3.13950/W32 for ARM                05/Jun/2025  10:13:03
+# Copyright 2007-2017 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Exe\Combine.out
+#    Map file     =  
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\List\Combine.map
+#    Command line =  
+#        -f C:\Users\DHKim\AppData\Local\Temp\EW6286.tmp
+#        (C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\adc.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\AT93C56.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\button.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\can.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\dwt_stm32_delay.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\i2c.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\input.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\J1939.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\layoutData.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\main.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\output.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\pcode.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\RPM.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\sequenceData.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\sound.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\soundData.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\spi.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\startup_stm32f407xx.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\stm32f4xx_hal.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\stm32f4xx_hal_adc.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\stm32f4xx_hal_adc_ex.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\stm32f4xx_hal_can.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\stm32f4xx_hal_cortex.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\stm32f4xx_hal_dma.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\stm32f4xx_hal_dma_ex.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\stm32f4xx_hal_exti.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\stm32f4xx_hal_flash.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\stm32f4xx_hal_flash_ex.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\stm32f4xx_hal_flash_ramfunc.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\stm32f4xx_hal_gpio.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\stm32f4xx_hal_i2c.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\stm32f4xx_hal_i2c_ex.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\stm32f4xx_hal_pwr.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\stm32f4xx_hal_pwr_ex.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\stm32f4xx_hal_rcc.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\stm32f4xx_hal_rcc_ex.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\stm32f4xx_hal_spi.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\stm32f4xx_hal_tim.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\stm32f4xx_hal_tim_ex.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\stm32f4xx_hal_uart.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\stm32f4xx_hal_usart.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\system.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\system_stm32f4xx.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\timer.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\tw9990.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\usart.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\watchdog.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\YSeq.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\Yvc1_HAL.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\Yvc1Ddrv.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\Yvc1Fontctrl.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\Yvc1Lyr.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\Yvc1Pmem.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\Yvc1Vin.o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj\Yvc1Wrp.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Exe\Combine.out
+#        --map
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\List\Combine.map
+#        --config
+#        C:\TSEVEENEE\4combine\combine\20250605\EWARM/stm32f407xx_flash.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x080fffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x20000000 to 0x2001ffff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind        Address     Size  Object
+  -------            ----        -------     ----  ------
+"A0":                                       0x188
+  .intvec            ro code  0x08000000    0x188  startup_stm32f407xx.o [1]
+                            - 0x08000188    0x188
+
+"P1":                                     0x1bb31
+  .text              ro code  0x08000188   0xaea0  Yvc1_HAL.o [1]
+  .text              ro code  0x0800b028    0x2c4  AT93C56.o [1]
+  .text              ro code  0x0800b2ec     0x48  FltToDbl.o [4]
+  .text              ro code  0x0800b334    0x1a2  DblMul.o [4]
+  .text              ro code  0x0800b4d6     0x7a  lz77_init_single.o [5]
+  .text              ro code  0x0800b550     0x68  DblToFlt.o [4]
+  .text              ro code  0x0800b5b8    0x280  stm32f4xx_hal_gpio.o [1]
+  .text              ro code  0x0800b838    0x166  main.o [1]
+  .rodata            const    0x0800b99e      0x1  Yvc1Ddrv.o [1]
+  .rodata            const    0x0800b99f      0x1  Yvc1Ddrv.o [1]
+  .text              ro code  0x0800b9a0     0xf0  spi.o [1]
+  .text              ro code  0x0800ba90    0x124  watchdog.o [1]
+  .text              ro code  0x0800bbb4     0x22  S32ToDbl.o [4]
+  .text              ro code  0x0800bbd6     0x16  math_wrappers64.o [4]
+  .text              ro code  0x0800bbec    0x216  input.o [1]
+  .rodata            const    0x0800be02      0x1  Yvc1Ddrv.o [1]
+  .rodata            const    0x0800be03      0x1  Yvc1Ddrv.o [1]
+  .text              ro code  0x0800be04    0x1bc  timer.o [1]
+  .text              ro code  0x0800bfc0    0x81c  Yvc1Ddrv.o [1]
+  .text              ro code  0x0800c7dc    0x45c  Yvc1Lyr.o [1]
+  .text              ro code  0x0800cc38    0x246  DblDiv.o [4]
+  .rodata            const    0x0800ce7e      0x1  Yvc1Ddrv.o [1]
+  .rodata            const    0x0800ce7f      0x1  Yvc1Ddrv.o [1]
+  .text              ro code  0x0800ce80     0x3a  DblToS32.o [4]
+  .rodata            const    0x0800ceba      0x1  Yvc1Ddrv.o [1]
+  .rodata            const    0x0800cebb      0x1  Yvc1Ddrv.o [1]
+  .text              ro code  0x0800cebc    0x178  DblAdd.o [4]
+  .text              ro code  0x0800d034     0x66  ABImemset.o [5]
+  .rodata            const    0x0800d09a      0x1  Yvc1Ddrv.o [1]
+  .rodata            const    0x0800d09b      0x1  Yvc1Ddrv.o [1]
+  .text              ro code  0x0800d09c     0x86  ABImemcpy.o [5]
+  .text              ro code  0x0800d122    0x40e  Yvc1Fontctrl.o [1]
+  .text              ro code  0x0800d530    0x444  sound.o [1]
+  .text              ro code  0x0800d974     0x6c  Yvc1Vin.o [1]
+  .text              ro code  0x0800d9e0    0x300  adc.o [1]
+  .text              ro code  0x0800dce0   0x306c  J1939.o [1]
+  .text              ro code  0x08010d4c    0x184  RPM.o [1]
+  .text              ro code  0x08010ed0    0x284  output.o [1]
+  .text              ro code  0x08011154      0x6  ABImemclr4.o [5]
+  .rodata            const    0x0801115a      0x1  Yvc1Ddrv.o [1]
+  .rodata            const    0x0801115b      0x1  Yvc1Ddrv.o [1]
+  .text              ro code  0x0801115c    0x154  stm32f4xx_hal_cortex.o [1]
+  .text              ro code  0x080112b0    0x224  stm32f4xx_hal_rcc.o [1]
+  .text              ro code  0x080114d4     0x70  dwt_stm32_delay.o [1]
+  .text              ro code  0x08011544     0x40  stm32f4xx_hal.o [1]
+  .text              ro code  0x08011584    0x1a0  system.o [1]
+  .text              ro code  0x08011724    0x124  tw9990.o [1]
+  .text              ro code  0x08011848     0xd4  usart.o [1]
+  .text              ro code  0x0801191c     0xa8  i2c.o [1]
+  .text              ro code  0x080119c4    0x650  can.o [1]
+  .text              ro code  0x08012014     0x28  stm32f4xx_hal.o [1]
+  .text              ro code  0x0801203c    0x7e0  stm32f4xx_hal_spi.o [1]
+  .rodata            const    0x0801281c     0x64  layoutData.o [1]
+  .text              ro code  0x08012880    0xb28  pow64.o [4]
+  .text              ro code  0x080133a8    0x7aa  stm32f4xx_hal_tim.o [1]
+  .rodata            const    0x08013b52      0x1  Yvc1Ddrv.o [1]
+  .rodata            const    0x08013b53      0x1  Yvc1Ddrv.o [1]
+  .text              ro code  0x08013b54    0x102  stm32f4xx_hal_tim_ex.o [1]
+  .rodata            const    0x08013c56      0x1  Yvc1Lyr.o [1]
+  .rodata            const    0x08013c57      0x1  Yvc1Lyr.o [1]
+  .text              ro code  0x08013c58    0x256  Yvc1Pmem.o [1]
+  .rodata            const    0x08013eae      0x1  Yvc1Lyr.o [1]
+  .rodata            const    0x08013eaf      0x1  Yvc1Lyr.o [1]
+  .text              ro code  0x08013eb0     0xe2  DblSub.o [4]
+  .rodata            const    0x08013f92      0x1  Yvc1Lyr.o [1]
+  .rodata            const    0x08013f93      0x1  Yvc1Lyr.o [1]
+  .text              ro code  0x08013f94     0x36  strlen.o [5]
+  .rodata            const    0x08013fca      0x1  Yvc1Vin.o [1]
+  .text              ro code  0x08013fcc    0x582  stm32f4xx_hal_adc.o [1]
+  .text              ro code  0x08014550    0x514  stm32f4xx_hal_dma.o [1]
+  .text              ro code  0x08014a64     0x32  ABImemset48.o [5]
+  .text              ro code  0x08014a98      0xc  stm32f4xx_hal.o [1]
+  .text              ro code  0x08014aa4     0x4c  stm32f4xx_hal.o [1]
+  .text              ro code  0x08014af0     0xee  I64DivMod.o [5]
+  .text              ro code  0x08014be0    0x418  stm32f4xx_hal_rcc.o [1]
+  .text              ro code  0x08014ff8     0x18  stm32f4xx_hal.o [1]
+  .text              ro code  0x08015010    0x6a0  stm32f4xx_hal_uart.o [1]
+  .text              ro code  0x080156b0    0x1f0  stm32f4xx_hal_i2c.o [1]
+  .text              ro code  0x080158a0    0x69c  stm32f4xx_hal_can.o [1]
+  .text              ro code  0x08015f3c     0x20  DblCmpEq.o [4]
+  .text              ro code  0x08015f5c     0x70  frexp.o [4]
+  .text              ro code  0x08015fcc     0x2e  DblCmpLe.o [4]
+  .text              ro code  0x08015ffc     0x2e  DblCmpGe.o [4]
+  .text              ro code  0x0801602c    0x418  iar_Exp64.o [4]
+  .text              ro code  0x08016444      0x2  stm32f4xx_hal_tim.o [1]
+  .text              ro code  0x08016446      0x2  stm32f4xx_hal_adc.o [1]
+  .text              ro code  0x08016448      0x2  stm32f4xx_hal_adc.o [1]
+  .text              ro code  0x0801644a      0x2  stm32f4xx_hal_adc.o [1]
+  .text              ro code  0x0801644c      0x2  I64DivZer.o [5]
+  .text              ro code  0x0801644e      0x2  stm32f4xx_hal_uart.o [1]
+  .text              ro code  0x08016450      0x2  stm32f4xx_hal_uart.o [1]
+  .text              ro code  0x08016452      0x2  stm32f4xx_hal_uart.o [1]
+  .text              ro code  0x08016454      0x2  stm32f4xx_hal_can.o [1]
+  .text              ro code  0x08016456      0x2  stm32f4xx_hal_can.o [1]
+  .text              ro code  0x08016458      0x2  stm32f4xx_hal_can.o [1]
+  .text              ro code  0x0801645a      0x2  stm32f4xx_hal_can.o [1]
+  .text              ro code  0x0801645c      0x2  stm32f4xx_hal_can.o [1]
+  .text              ro code  0x0801645e      0x2  stm32f4xx_hal_can.o [1]
+  .text              ro code  0x08016460      0x2  stm32f4xx_hal_can.o [1]
+  .text              ro code  0x08016462      0x2  stm32f4xx_hal_can.o [1]
+  .text              ro code  0x08016464      0x2  stm32f4xx_hal_can.o [1]
+  .text              ro code  0x08016466      0x2  stm32f4xx_hal_can.o [1]
+  .text              ro code  0x08016468      0x2  stm32f4xx_hal_can.o [1]
+  .text              ro code  0x0801646a      0x2  stm32f4xx_hal_can.o [1]
+  .text              ro code  0x0801646c    0x13a  ldexp.o [4]
+  .rodata            const    0x080165a8    0x954  layoutData.o [1]
+  .rodata            const    0x08016efc    0x6c0  layoutData.o [1]
+  .rodata            const    0x080175bc    0x598  pcode.o [1]
+  .rodata            const    0x08017b54    0x478  pcode.o [1]
+  .rodata            const    0x08017fcc    0x450  layoutData.o [1]
+  .rodata            const    0x0801841c    0x420  layoutData.o [1]
+  .rodata            const    0x0801883c    0x3f0  layoutData.o [1]
+  .rodata            const    0x08018c2c    0x39c  layoutData.o [1]
+  .rodata            const    0x08018fc8    0x384  layoutData.o [1]
+  .rodata            const    0x0801934c    0x348  layoutData.o [1]
+  .rodata            const    0x08019694    0x27c  layoutData.o [1]
+  .rodata            const    0x08019910    0x234  layoutData.o [1]
+  .rodata            const    0x08019b44    0x1e0  layoutData.o [1]
+  .rodata            const    0x08019d24    0x168  layoutData.o [1]
+  .rodata            const    0x08019e8c    0x15c  layoutData.o [1]
+  .rodata            const    0x08019fe8    0x120  pcode.o [1]
+  .rodata            const    0x0801a108    0x100  layoutData.o [1]
+  .rodata            const    0x0801a208    0x100  layoutData.o [1]
+  .rodata            const    0x0801a308    0x100  layoutData.o [1]
+  .rodata            const    0x0801a408    0x100  layoutData.o [1]
+  .rodata            const    0x0801a508    0x100  layoutData.o [1]
+  .rodata            const    0x0801a608     0xe4  layoutData.o [1]
+  .rodata            const    0x0801a6ec     0xc0  layoutData.o [1]
+  .rodata            const    0x0801a7ac     0xa8  layoutData.o [1]
+  .rodata            const    0x0801a854     0x90  layoutData.o [1]
+  .rodata            const    0x0801a8e4     0x90  layoutData.o [1]
+  .rodata            const    0x0801a974     0x84  layoutData.o [1]
+  .rodata            const    0x0801a9f8     0x80  Yvc1_HAL.o [1]
+  .rodata            const    0x0801aa78     0x80  Yvc1_HAL.o [1]
+  .rodata            const    0x0801aaf8     0x78  layoutData.o [1]
+  .rodata            const    0x0801ab70     0x78  layoutData.o [1]
+  .rodata            const    0x0801abe8     0x78  layoutData.o [1]
+  .rodata            const    0x0801ac60     0x60  layoutData.o [1]
+  .rodata            const    0x0801acc0     0x58  layoutData.o [1]
+  .rodata            const    0x0801ad18     0x58  layoutData.o [1]
+  .rodata            const    0x0801ad70     0x48  layoutData.o [1]
+  .rodata            const    0x0801adb8     0x48  layoutData.o [1]
+  .text              ro code  0x0801ae00     0x40  zero_init3.o [5]
+  .rodata            const    0x0801ae40     0x3c  layoutData.o [1]
+  .rodata            const    0x0801ae7c     0x3c  layoutData.o [1]
+  .rodata            const    0x0801aeb8     0x3c  layoutData.o [1]
+  .rodata            const    0x0801aef4     0x3c  layoutData.o [1]
+  .rodata            const    0x0801af30     0x38  layoutData.o [1]
+  .rodata            const    0x0801af68     0x38  layoutData.o [1]
+  .rodata            const    0x0801afa0     0x34  Yvc1_HAL.o [1]
+  .rodata            const    0x0801afd4     0x30  layoutData.o [1]
+  .rodata            const    0x0801b004     0x30  layoutData.o [1]
+  .rodata            const    0x0801b034     0x30  layoutData.o [1]
+  .rodata            const    0x0801b064     0x30  layoutData.o [1]
+  .rodata            const    0x0801b094     0x28  layoutData.o [1]
+  .rodata            const    0x0801b0bc     0x28  layoutData.o [1]
+  .rodata            const    0x0801b0e4     0x28  layoutData.o [1]
+  .rodata            const    0x0801b10c     0x28  layoutData.o [1]
+  .rodata            const    0x0801b134     0x28  layoutData.o [1]
+  .rodata            const    0x0801b15c     0x28  layoutData.o [1]
+  .rodata            const    0x0801b184     0x28  layoutData.o [1]
+  .rodata            const    0x0801b1ac     0x28  layoutData.o [1]
+  .rodata            const    0x0801b1d4     0x28  layoutData.o [1]
+  .rodata            const    0x0801b1fc     0x28  layoutData.o [1]
+  .rodata            const    0x0801b224     0x28  layoutData.o [1]
+  .rodata            const    0x0801b24c     0x28  layoutData.o [1]
+  .rodata            const    0x0801b274     0x28  layoutData.o [1]
+  .rodata            const    0x0801b29c     0x28  layoutData.o [1]
+  .rodata            const    0x0801b2c4     0x28  layoutData.o [1]
+  .rodata            const    0x0801b2ec     0x28  layoutData.o [1]
+  .rodata            const    0x0801b314     0x28  layoutData.o [1]
+  .rodata            const    0x0801b33c     0x28  layoutData.o [1]
+  .rodata            const    0x0801b364     0x28  layoutData.o [1]
+  .rodata            const    0x0801b38c     0x28  layoutData.o [1]
+  .rodata            const    0x0801b3b4     0x28  layoutData.o [1]
+  .rodata            const    0x0801b3dc     0x28  layoutData.o [1]
+  .rodata            const    0x0801b404     0x28  layoutData.o [1]
+  .rodata            const    0x0801b42c     0x28  layoutData.o [1]
+  .rodata            const    0x0801b454     0x28  layoutData.o [1]
+  .rodata            const    0x0801b47c     0x28  layoutData.o [1]
+  .rodata            const    0x0801b4a4     0x28  layoutData.o [1]
+  .text              ro code  0x0801b4cc     0x28  data_init.o [5]
+  .text              ro code  0x0801b4f4     0x22  fpinit_M.o [4]
+  .iar.init_table    const    0x0801b518     0x20  - Linker created -
+  .text              ro code  0x0801b538     0x20  system_stm32f4xx.o [1]
+  .text              ro code  0x0801b558     0x1a  cmain.o [5]
+  .text              ro code  0x0801b572      0x4  low_level_init.o [3]
+  .text              ro code  0x0801b576      0x4  exit.o [3]
+  .text              ro code  0x0801b57c      0xa  cexit.o [5]
+  .text              ro code  0x0801b588     0x14  exit.o [6]
+  .rodata            const    0x0801b59c     0x18  layoutData.o [1]
+  .rodata            const    0x0801b5b4     0x18  layoutData.o [1]
+  .rodata            const    0x0801b5cc     0x18  layoutData.o [1]
+  .rodata            const    0x0801b5e4     0x18  layoutData.o [1]
+  .rodata            const    0x0801b5fc     0x18  layoutData.o [1]
+  .rodata            const    0x0801b614     0x18  layoutData.o [1]
+  .rodata            const    0x0801b62c     0x18  layoutData.o [1]
+  .rodata            const    0x0801b644     0x18  layoutData.o [1]
+  .rodata            const    0x0801b65c     0x18  layoutData.o [1]
+  .rodata            const    0x0801b674     0x18  layoutData.o [1]
+  .rodata            const    0x0801b68c     0x18  layoutData.o [1]
+  .rodata            const    0x0801b6a4     0x18  layoutData.o [1]
+  .rodata            const    0x0801b6bc     0x18  layoutData.o [1]
+  .rodata            const    0x0801b6d4     0x18  layoutData.o [1]
+  .rodata            const    0x0801b6ec     0x18  layoutData.o [1]
+  .rodata            const    0x0801b704     0x18  layoutData.o [1]
+  .rodata            const    0x0801b71c     0x18  layoutData.o [1]
+  .rodata            const    0x0801b734     0x18  layoutData.o [1]
+  .rodata            const    0x0801b74c     0x18  layoutData.o [1]
+  .rodata            const    0x0801b764     0x18  layoutData.o [1]
+  .rodata            const    0x0801b77c     0x18  layoutData.o [1]
+  .rodata            const    0x0801b794     0x18  layoutData.o [1]
+  .rodata            const    0x0801b7ac     0x18  layoutData.o [1]
+  .rodata            const    0x0801b7c4     0x18  layoutData.o [1]
+  .rodata            const    0x0801b7dc     0x18  layoutData.o [1]
+  .rodata            const    0x0801b7f4     0x18  layoutData.o [1]
+  .rodata            const    0x0801b80c     0x18  layoutData.o [1]
+  .rodata            const    0x0801b824     0x18  layoutData.o [1]
+  .rodata            const    0x0801b83c     0x18  layoutData.o [1]
+  .rodata            const    0x0801b854     0x18  layoutData.o [1]
+  .rodata            const    0x0801b86c     0x18  layoutData.o [1]
+  .rodata            const    0x0801b884     0x18  layoutData.o [1]
+  .rodata            const    0x0801b89c     0x18  layoutData.o [1]
+  .rodata            const    0x0801b8b4     0x18  layoutData.o [1]
+  .rodata            const    0x0801b8cc     0x18  layoutData.o [1]
+  .rodata            const    0x0801b8e4     0x18  layoutData.o [1]
+  .rodata            const    0x0801b8fc     0x10  system_stm32f4xx.o [1]
+  .rodata            const    0x0801b90c     0x10  Yvc1_HAL.o [1]
+  .text              ro code  0x0801b91c     0x10  startup_stm32f407xx.o [1]
+  .rodata            const    0x0801b92c      0xc  Yvc1Ddrv.o [1]
+  .text              ro code  0x0801b938      0xc  cstartup_M.o [5]
+  .rodata            const    0x0801b944      0x8  layoutData.o [1]
+  .rodata            const    0x0801b94c      0x8  layoutData.o [1]
+  .rodata            const    0x0801b954      0x8  layoutData.o [1]
+  .rodata            const    0x0801b95c      0x8  layoutData.o [1]
+  .rodata            const    0x0801b964      0x8  layoutData.o [1]
+  .rodata            const    0x0801b96c      0x8  layoutData.o [1]
+  .rodata            const    0x0801b974      0x8  stm32f4xx_hal_dma.o [1]
+  .rodata            const    0x0801b97c      0x8  system_stm32f4xx.o [1]
+  .rodata            const    0x0801b984      0x8  timer.o [1]
+  .rodata            const    0x0801b98c      0x8  Yvc1_HAL.o [1]
+  .rodata            const    0x0801b994      0x8  Yvc1_HAL.o [1]
+  .text              ro code  0x0801b99c      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801b9a0      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801b9a4      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801b9a8      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801b9ac      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801b9b0      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801b9b4      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801b9b8      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801b9bc      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801b9c0      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801b9c4      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801b9c8      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801b9cc      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801b9d0      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801b9d4      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801b9d8      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801b9dc      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801b9e0      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801b9e4      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801b9e8      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801b9ec      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801b9f0      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801b9f4      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801b9f8      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801b9fc      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba00      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba04      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba08      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba0c      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba10      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba14      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba18      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba1c      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba20      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba24      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba28      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba2c      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba30      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba34      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba38      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba3c      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba40      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba44      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba48      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba4c      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba50      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba54      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba58      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba5c      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba60      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba64      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba68      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba6c      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba70      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba74      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba78      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba7c      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba80      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba84      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba88      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba8c      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba90      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba94      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba98      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801ba9c      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801baa0      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801baa4      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801baa8      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801baac      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801bab0      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801bab4      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801bab8      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801babc      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801bac0      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0801bac4      0x4  startup_stm32f407xx.o [1]
+  .rodata            const    0x0801bac8      0x0  zero_init3.o [5]
+  .rodata            const    0x0801bac8      0x0  lz77_init_single.o [5]
+  Initializer bytes  const    0x0801bac8    0x1f1  <for P2-1>
+                            - 0x0801bcb9  0x1bb31
+
+"P2", part 1 of 3:                          0x5bc
+  P2-1                        0x20000000    0x5bc  <Init block>
+    .data            inited   0x20000000     0x2c  input.o [1]
+    .data            inited   0x2000002c     0x18  input.o [1]
+    .data            inited   0x20000044      0x4  stm32f4xx_hal.o [1]
+    .data            inited   0x20000048      0x4  system_stm32f4xx.o [1]
+    .data            inited   0x2000004c    0x3cc  Yvc1_HAL.o [1]
+    .data            inited   0x20000418    0x150  Yvc1_HAL.o [1]
+    .data            inited   0x20000568     0x50  Yvc1Pmem.o [1]
+    .data            inited   0x200005b8      0x1  stm32f4xx_hal.o [1]
+    .data            inited   0x200005b9      0x1  Yvc1_HAL.o [1]
+    .data            inited   0x200005ba      0x1  Yvc1_HAL.o [1]
+    .data            inited   0x200005bb      0x1  Yvc1_HAL.o [1]
+                            - 0x200005bc    0x5bc
+
+"P2", part 2 of 3:                         0x15c0
+  .bss               zero     0x200005bc    0x7d0  adc.o [1]
+  .bss               zero     0x20000d8c    0x190  Yvc1_HAL.o [1]
+  .bss               zero     0x20000f1c    0x190  Yvc1_HAL.o [1]
+  .bss               zero     0x200010ac    0x11c  can.o [1]
+  .bss               zero     0x200011c8     0x70  can.o [1]
+  .bss               zero     0x20001238     0x64  Yvc1_HAL.o [1]
+  .bss               zero     0x2000129c     0x60  adc.o [1]
+  .bss               zero     0x200012fc     0x58  spi.o [1]
+  .bss               zero     0x20001354     0x54  i2c.o [1]
+  .bss               zero     0x200013a8     0x50  J1939.o [1]
+  .bss               zero     0x200013f8     0x50  J1939.o [1]
+  .bss               zero     0x20001448     0x48  adc.o [1]
+  .bss               zero     0x20001490     0x48  can.o [1]
+  .bss               zero     0x200014d8     0x48  timer.o [1]
+  .bss               zero     0x20001520     0x44  usart.o [1]
+  .bss               zero     0x20001564     0x28  can.o [1]
+  .bss               zero     0x2000158c     0x28  can.o [1]
+  .bss               zero     0x200015b4     0x28  can.o [1]
+  .bss               zero     0x200015dc     0x1c  can.o [1]
+  .bss               zero     0x200015f8     0x1c  can.o [1]
+  .bss               zero     0x20001614     0x18  can.o [1]
+  .bss               zero     0x2000162c     0x18  input.o [1]
+  .bss               zero     0x20001644     0x14  adc.o [1]
+  .bss               zero     0x20001658     0x14  can.o [1]
+  .bss               zero     0x2000166c     0x14  J1939.o [1]
+  .bss               zero     0x20001680     0x14  J1939.o [1]
+  .bss               zero     0x20001694     0x14  J1939.o [1]
+  .bss               zero     0x200016a8     0x14  J1939.o [1]
+  .bss               zero     0x200016bc     0x14  J1939.o [1]
+  .bss               zero     0x200016d0     0x14  J1939.o [1]
+  .bss               zero     0x200016e4     0x14  sound.o [1]
+  .bss               zero     0x200016f8     0x14  sound.o [1]
+  .bss               zero     0x2000170c     0x14  sound.o [1]
+  .bss               zero     0x20001720     0x10  can.o [1]
+  .bss               zero     0x20001730     0x10  can.o [1]
+  .bss               zero     0x20001740      0xc  adc.o [1]
+  .bss               zero     0x2000174c      0xc  can.o [1]
+  .bss               zero     0x20001758      0xc  input.o [1]
+  .bss               zero     0x20001764      0xc  Yvc1_HAL.o [1]
+  .bss               zero     0x20001770      0x8  can.o [1]
+  .bss               zero     0x20001778      0x8  can.o [1]
+  .bss               zero     0x20001780      0x8  can.o [1]
+  .bss               zero     0x20001788      0x8  can.o [1]
+  .bss               zero     0x20001790      0x8  can.o [1]
+  .bss               zero     0x20001798      0x8  can.o [1]
+  .bss               zero     0x200017a0      0x8  can.o [1]
+  .bss               zero     0x200017a8      0x8  can.o [1]
+  .bss               zero     0x200017b0      0x8  can.o [1]
+  .bss               zero     0x200017b8      0x8  can.o [1]
+  .bss               zero     0x200017c0      0x8  can.o [1]
+  .bss               zero     0x200017c8      0x8  can.o [1]
+  .bss               zero     0x200017d0      0x8  can.o [1]
+  .bss               zero     0x200017d8      0x8  can.o [1]
+  .bss               zero     0x200017e0      0x8  can.o [1]
+  .bss               zero     0x200017e8      0x8  can.o [1]
+  .bss               zero     0x200017f0      0x8  can.o [1]
+  .bss               zero     0x200017f8      0x8  can.o [1]
+  .bss               zero     0x20001800      0x8  can.o [1]
+  .bss               zero     0x20001808      0x8  J1939.o [1]
+  .bss               zero     0x20001810      0x8  J1939.o [1]
+  .bss               zero     0x20001818      0x8  J1939.o [1]
+  .bss               zero     0x20001820      0x8  Yvc1_HAL.o [1]
+  .bss               zero     0x20001828      0x8  Yvc1_HAL.o [1]
+  .bss               zero     0x20001830      0x4  can.o [1]
+  .bss               zero     0x20001834      0x4  can.o [1]
+  .bss               zero     0x20001838      0x4  can.o [1]
+  .bss               zero     0x2000183c      0x4  input.o [1]
+  .bss               zero     0x20001840      0x4  J1939.o [1]
+  .bss               zero     0x20001844      0x4  J1939.o [1]
+  .bss               zero     0x20001848      0x4  J1939.o [1]
+  .bss               zero     0x2000184c      0x4  J1939.o [1]
+  .bss               zero     0x20001850      0x4  J1939.o [1]
+  .bss               zero     0x20001854      0x4  J1939.o [1]
+  .bss               zero     0x20001858      0x4  J1939.o [1]
+  .bss               zero     0x2000185c      0x4  J1939.o [1]
+  .bss               zero     0x20001860      0x4  J1939.o [1]
+  .bss               zero     0x20001864      0x4  J1939.o [1]
+  .bss               zero     0x20001868      0x4  main.o [1]
+  .bss               zero     0x2000186c      0x4  main.o [1]
+  .bss               zero     0x20001870      0x4  main.o [1]
+  .bss               zero     0x20001874      0x4  output.o [1]
+  .bss               zero     0x20001878      0x4  RPM.o [1]
+  .bss               zero     0x2000187c      0x4  RPM.o [1]
+  .bss               zero     0x20001880      0x4  RPM.o [1]
+  .bss               zero     0x20001884      0x4  RPM.o [1]
+  .bss               zero     0x20001888      0x4  RPM.o [1]
+  .bss               zero     0x2000188c      0x4  RPM.o [1]
+  .bss               zero     0x20001890      0x4  stm32f4xx_hal.o [1]
+  .bss               zero     0x20001894      0x4  Yvc1_HAL.o [1]
+  .bss               zero     0x20001898      0x4  Yvc1_HAL.o [1]
+  .bss               zero     0x2000189c      0x4  Yvc1_HAL.o [1]
+  .bss               zero     0x200018a0      0x4  Yvc1_HAL.o [1]
+  .bss               zero     0x200018a4      0x4  Yvc1_HAL.o [1]
+  .bss               zero     0x200018a8      0x4  Yvc1_HAL.o [1]
+  .bss               zero     0x200018ac      0x4  Yvc1_HAL.o [1]
+  .bss               zero     0x200018b0      0x4  Yvc1_HAL.o [1]
+  .bss               zero     0x200018b4      0x4  Yvc1_HAL.o [1]
+  .bss               zero     0x200018b8      0x4  Yvc1_HAL.o [1]
+  .bss               zero     0x200018bc      0x4  Yvc1_HAL.o [1]
+  .bss               zero     0x200018c0      0x4  Yvc1_HAL.o [1]
+  .bss               zero     0x200018c4      0x4  Yvc1_HAL.o [1]
+  .bss               zero     0x200018c8      0x4  Yvc1_HAL.o [1]
+  .bss               zero     0x200018cc      0x4  Yvc1_HAL.o [1]
+  .bss               zero     0x200018d0      0x4  Yvc1_HAL.o [1]
+  .bss               zero     0x200018d4      0x2  adc.o [1]
+  .bss               zero     0x200018d6      0x2  can.o [1]
+  .bss               zero     0x200018d8      0x2  can.o [1]
+  .bss               zero     0x200018da      0x2  can.o [1]
+  .bss               zero     0x200018dc      0x2  can.o [1]
+  .bss               zero     0x200018de      0x2  can.o [1]
+  .bss               zero     0x200018e0      0x2  can.o [1]
+  .bss               zero     0x200018e2      0x2  can.o [1]
+  .bss               zero     0x200018e4      0x2  can.o [1]
+  .bss               zero     0x200018e6      0x2  can.o [1]
+  .bss               zero     0x200018e8      0x2  can.o [1]
+  .bss               zero     0x200018ea      0x2  can.o [1]
+  .bss               zero     0x200018ec      0x2  can.o [1]
+  .bss               zero     0x200018ee      0x2  can.o [1]
+  .bss               zero     0x200018f0      0x2  can.o [1]
+  .bss               zero     0x200018f2      0x2  can.o [1]
+  .bss               zero     0x200018f4      0x2  can.o [1]
+  .bss               zero     0x200018f6      0x2  can.o [1]
+  .bss               zero     0x200018f8      0x2  can.o [1]
+  .bss               zero     0x200018fa      0x2  can.o [1]
+  .bss               zero     0x200018fc      0x2  can.o [1]
+  .bss               zero     0x200018fe      0x2  can.o [1]
+  .bss               zero     0x20001900      0x2  can.o [1]
+  .bss               zero     0x20001902      0x2  can.o [1]
+  .bss               zero     0x20001904      0x2  can.o [1]
+  .bss               zero     0x20001906      0x2  can.o [1]
+  .bss               zero     0x20001908      0x2  can.o [1]
+  .bss               zero     0x2000190a      0x2  can.o [1]
+  .bss               zero     0x2000190c      0x2  can.o [1]
+  .bss               zero     0x2000190e      0x2  can.o [1]
+  .bss               zero     0x20001910      0x2  can.o [1]
+  .bss               zero     0x20001912      0x2  can.o [1]
+  .bss               zero     0x20001914      0x2  J1939.o [1]
+  .bss               zero     0x20001916      0x2  J1939.o [1]
+  .bss               zero     0x20001918      0x2  J1939.o [1]
+  .bss               zero     0x2000191a      0x2  J1939.o [1]
+  .bss               zero     0x2000191c      0x2  J1939.o [1]
+  .bss               zero     0x2000191e      0x2  J1939.o [1]
+  .bss               zero     0x20001920      0x2  J1939.o [1]
+  .bss               zero     0x20001922      0x2  J1939.o [1]
+  .bss               zero     0x20001924      0x2  J1939.o [1]
+  .bss               zero     0x20001926      0x2  J1939.o [1]
+  .bss               zero     0x20001928      0x2  J1939.o [1]
+  .bss               zero     0x2000192a      0x2  J1939.o [1]
+  .bss               zero     0x2000192c      0x2  J1939.o [1]
+  .bss               zero     0x2000192e      0x2  J1939.o [1]
+  .bss               zero     0x20001930      0x2  J1939.o [1]
+  .bss               zero     0x20001932      0x2  J1939.o [1]
+  .bss               zero     0x20001934      0x2  J1939.o [1]
+  .bss               zero     0x20001936      0x2  J1939.o [1]
+  .bss               zero     0x20001938      0x2  J1939.o [1]
+  .bss               zero     0x2000193a      0x2  J1939.o [1]
+  .bss               zero     0x2000193c      0x2  J1939.o [1]
+  .bss               zero     0x2000193e      0x2  J1939.o [1]
+  .bss               zero     0x20001940      0x2  J1939.o [1]
+  .bss               zero     0x20001942      0x2  J1939.o [1]
+  .bss               zero     0x20001944      0x2  J1939.o [1]
+  .bss               zero     0x20001946      0x2  J1939.o [1]
+  .bss               zero     0x20001948      0x2  J1939.o [1]
+  .bss               zero     0x2000194a      0x2  J1939.o [1]
+  .bss               zero     0x2000194c      0x2  J1939.o [1]
+  .bss               zero     0x2000194e      0x2  J1939.o [1]
+  .bss               zero     0x20001950      0x2  J1939.o [1]
+  .bss               zero     0x20001952      0x2  J1939.o [1]
+  .bss               zero     0x20001954      0x2  J1939.o [1]
+  .bss               zero     0x20001956      0x2  J1939.o [1]
+  .bss               zero     0x20001958      0x2  J1939.o [1]
+  .bss               zero     0x2000195a      0x2  J1939.o [1]
+  .bss               zero     0x2000195c      0x2  J1939.o [1]
+  .bss               zero     0x2000195e      0x2  J1939.o [1]
+  .bss               zero     0x20001960      0x2  J1939.o [1]
+  .bss               zero     0x20001962      0x2  J1939.o [1]
+  .bss               zero     0x20001964      0x2  J1939.o [1]
+  .bss               zero     0x20001966      0x2  J1939.o [1]
+  .bss               zero     0x20001968      0x2  J1939.o [1]
+  .bss               zero     0x2000196a      0x2  J1939.o [1]
+  .bss               zero     0x2000196c      0x2  J1939.o [1]
+  .bss               zero     0x2000196e      0x2  J1939.o [1]
+  .bss               zero     0x20001970      0x2  J1939.o [1]
+  .bss               zero     0x20001972      0x2  J1939.o [1]
+  .bss               zero     0x20001974      0x2  J1939.o [1]
+  .bss               zero     0x20001976      0x2  J1939.o [1]
+  .bss               zero     0x20001978      0x2  J1939.o [1]
+  .bss               zero     0x2000197a      0x2  J1939.o [1]
+  .bss               zero     0x2000197c      0x2  J1939.o [1]
+  .bss               zero     0x2000197e      0x2  J1939.o [1]
+  .bss               zero     0x20001980      0x2  J1939.o [1]
+  .bss               zero     0x20001982      0x2  J1939.o [1]
+  .bss               zero     0x20001984      0x2  J1939.o [1]
+  .bss               zero     0x20001986      0x2  J1939.o [1]
+  .bss               zero     0x20001988      0x2  J1939.o [1]
+  .bss               zero     0x2000198a      0x2  J1939.o [1]
+  .bss               zero     0x2000198c      0x2  J1939.o [1]
+  .bss               zero     0x2000198e      0x2  J1939.o [1]
+  .bss               zero     0x20001990      0x2  J1939.o [1]
+  .bss               zero     0x20001992      0x2  J1939.o [1]
+  .bss               zero     0x20001994      0x2  J1939.o [1]
+  .bss               zero     0x20001996      0x2  J1939.o [1]
+  .bss               zero     0x20001998      0x2  J1939.o [1]
+  .bss               zero     0x2000199a      0x2  J1939.o [1]
+  .bss               zero     0x2000199c      0x2  J1939.o [1]
+  .bss               zero     0x2000199e      0x2  J1939.o [1]
+  .bss               zero     0x200019a0      0x2  J1939.o [1]
+  .bss               zero     0x200019a2      0x2  J1939.o [1]
+  .bss               zero     0x200019a4      0x2  J1939.o [1]
+  .bss               zero     0x200019a6      0x2  J1939.o [1]
+  .bss               zero     0x200019a8      0x2  J1939.o [1]
+  .bss               zero     0x200019aa      0x2  J1939.o [1]
+  .bss               zero     0x200019ac      0x2  J1939.o [1]
+  .bss               zero     0x200019ae      0x2  J1939.o [1]
+  .bss               zero     0x200019b0      0x2  J1939.o [1]
+  .bss               zero     0x200019b2      0x2  J1939.o [1]
+  .bss               zero     0x200019b4      0x2  J1939.o [1]
+  .bss               zero     0x200019b6      0x2  J1939.o [1]
+  .bss               zero     0x200019b8      0x2  J1939.o [1]
+  .bss               zero     0x200019ba      0x2  J1939.o [1]
+  .bss               zero     0x200019bc      0x2  J1939.o [1]
+  .bss               zero     0x200019be      0x2  J1939.o [1]
+  .bss               zero     0x200019c0      0x2  J1939.o [1]
+  .bss               zero     0x200019c2      0x2  J1939.o [1]
+  .bss               zero     0x200019c4      0x2  J1939.o [1]
+  .bss               zero     0x200019c6      0x2  J1939.o [1]
+  .bss               zero     0x200019c8      0x2  J1939.o [1]
+  .bss               zero     0x200019ca      0x2  J1939.o [1]
+  .bss               zero     0x200019cc      0x2  J1939.o [1]
+  .bss               zero     0x200019ce      0x2  J1939.o [1]
+  .bss               zero     0x200019d0      0x2  J1939.o [1]
+  .bss               zero     0x200019d2      0x2  J1939.o [1]
+  .bss               zero     0x200019d4      0x2  J1939.o [1]
+  .bss               zero     0x200019d6      0x2  J1939.o [1]
+  .bss               zero     0x200019d8      0x2  J1939.o [1]
+  .bss               zero     0x200019da      0x2  J1939.o [1]
+  .bss               zero     0x200019dc      0x2  J1939.o [1]
+  .bss               zero     0x200019de      0x2  J1939.o [1]
+  .bss               zero     0x200019e0      0x2  J1939.o [1]
+  .bss               zero     0x200019e2      0x2  J1939.o [1]
+  .bss               zero     0x200019e4      0x2  J1939.o [1]
+  .bss               zero     0x200019e6      0x2  J1939.o [1]
+  .bss               zero     0x200019e8      0x2  J1939.o [1]
+  .bss               zero     0x200019ea      0x2  J1939.o [1]
+  .bss               zero     0x200019ec      0x2  J1939.o [1]
+  .bss               zero     0x200019ee      0x2  RPM.o [1]
+  .bss               zero     0x200019f0      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x200019f2      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x200019f4      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x200019f6      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x200019f8      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x200019fa      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x200019fc      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x200019fe      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a00      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a02      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a04      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a06      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a08      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a0a      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a0c      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a0e      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a10      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a12      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a14      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a16      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a18      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a1a      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a1c      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a1e      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a20      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a22      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a24      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a26      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a28      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a2a      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a2c      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a2e      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a30      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a32      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a34      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a36      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a38      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a3a      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a3c      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a3e      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a40      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a42      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a44      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a46      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a48      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a4a      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a4c      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a4e      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a50      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a52      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a54      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a56      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a58      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a5a      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a5c      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a5e      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a60      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a62      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a64      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a66      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a68      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a6a      0x2  Yvc1_HAL.o [1]
+  .bss               zero     0x20001a6c      0x1  adc.o [1]
+  .bss               zero     0x20001a6d      0x1  can.o [1]
+  .bss               zero     0x20001a6e      0x1  can.o [1]
+  .bss               zero     0x20001a6f      0x1  can.o [1]
+  .bss               zero     0x20001a70      0x1  can.o [1]
+  .bss               zero     0x20001a71      0x1  can.o [1]
+  .bss               zero     0x20001a72      0x1  can.o [1]
+  .bss               zero     0x20001a73      0x1  can.o [1]
+  .bss               zero     0x20001a74      0x1  can.o [1]
+  .bss               zero     0x20001a75      0x1  can.o [1]
+  .bss               zero     0x20001a76      0x1  can.o [1]
+  .bss               zero     0x20001a77      0x1  can.o [1]
+  .bss               zero     0x20001a78      0x1  can.o [1]
+  .bss               zero     0x20001a79      0x1  dwt_stm32_delay.o [1]
+  .bss               zero     0x20001a7a      0x1  J1939.o [1]
+  .bss               zero     0x20001a7b      0x1  J1939.o [1]
+  .bss               zero     0x20001a7c      0x1  J1939.o [1]
+  .bss               zero     0x20001a7d      0x1  J1939.o [1]
+  .bss               zero     0x20001a7e      0x1  J1939.o [1]
+  .bss               zero     0x20001a7f      0x1  J1939.o [1]
+  .bss               zero     0x20001a80      0x1  J1939.o [1]
+  .bss               zero     0x20001a81      0x1  J1939.o [1]
+  .bss               zero     0x20001a82      0x1  J1939.o [1]
+  .bss               zero     0x20001a83      0x1  J1939.o [1]
+  .bss               zero     0x20001a84      0x1  J1939.o [1]
+  .bss               zero     0x20001a85      0x1  J1939.o [1]
+  .bss               zero     0x20001a86      0x1  J1939.o [1]
+  .bss               zero     0x20001a87      0x1  J1939.o [1]
+  .bss               zero     0x20001a88      0x1  J1939.o [1]
+  .bss               zero     0x20001a89      0x1  J1939.o [1]
+  .bss               zero     0x20001a8a      0x1  J1939.o [1]
+  .bss               zero     0x20001a8b      0x1  J1939.o [1]
+  .bss               zero     0x20001a8c      0x1  J1939.o [1]
+  .bss               zero     0x20001a8d      0x1  J1939.o [1]
+  .bss               zero     0x20001a8e      0x1  J1939.o [1]
+  .bss               zero     0x20001a8f      0x1  J1939.o [1]
+  .bss               zero     0x20001a90      0x1  J1939.o [1]
+  .bss               zero     0x20001a91      0x1  J1939.o [1]
+  .bss               zero     0x20001a92      0x1  J1939.o [1]
+  .bss               zero     0x20001a93      0x1  J1939.o [1]
+  .bss               zero     0x20001a94      0x1  J1939.o [1]
+  .bss               zero     0x20001a95      0x1  J1939.o [1]
+  .bss               zero     0x20001a96      0x1  J1939.o [1]
+  .bss               zero     0x20001a97      0x1  J1939.o [1]
+  .bss               zero     0x20001a98      0x1  J1939.o [1]
+  .bss               zero     0x20001a99      0x1  J1939.o [1]
+  .bss               zero     0x20001a9a      0x1  J1939.o [1]
+  .bss               zero     0x20001a9b      0x1  J1939.o [1]
+  .bss               zero     0x20001a9c      0x1  J1939.o [1]
+  .bss               zero     0x20001a9d      0x1  J1939.o [1]
+  .bss               zero     0x20001a9e      0x1  J1939.o [1]
+  .bss               zero     0x20001a9f      0x1  J1939.o [1]
+  .bss               zero     0x20001aa0      0x1  J1939.o [1]
+  .bss               zero     0x20001aa1      0x1  J1939.o [1]
+  .bss               zero     0x20001aa2      0x1  J1939.o [1]
+  .bss               zero     0x20001aa3      0x1  J1939.o [1]
+  .bss               zero     0x20001aa4      0x1  J1939.o [1]
+  .bss               zero     0x20001aa5      0x1  J1939.o [1]
+  .bss               zero     0x20001aa6      0x1  J1939.o [1]
+  .bss               zero     0x20001aa7      0x1  J1939.o [1]
+  .bss               zero     0x20001aa8      0x1  J1939.o [1]
+  .bss               zero     0x20001aa9      0x1  J1939.o [1]
+  .bss               zero     0x20001aaa      0x1  J1939.o [1]
+  .bss               zero     0x20001aab      0x1  J1939.o [1]
+  .bss               zero     0x20001aac      0x1  J1939.o [1]
+  .bss               zero     0x20001aad      0x1  J1939.o [1]
+  .bss               zero     0x20001aae      0x1  J1939.o [1]
+  .bss               zero     0x20001aaf      0x1  J1939.o [1]
+  .bss               zero     0x20001ab0      0x1  J1939.o [1]
+  .bss               zero     0x20001ab1      0x1  J1939.o [1]
+  .bss               zero     0x20001ab2      0x1  J1939.o [1]
+  .bss               zero     0x20001ab3      0x1  J1939.o [1]
+  .bss               zero     0x20001ab4      0x1  J1939.o [1]
+  .bss               zero     0x20001ab5      0x1  J1939.o [1]
+  .bss               zero     0x20001ab6      0x1  J1939.o [1]
+  .bss               zero     0x20001ab7      0x1  J1939.o [1]
+  .bss               zero     0x20001ab8      0x1  J1939.o [1]
+  .bss               zero     0x20001ab9      0x1  J1939.o [1]
+  .bss               zero     0x20001aba      0x1  J1939.o [1]
+  .bss               zero     0x20001abb      0x1  J1939.o [1]
+  .bss               zero     0x20001abc      0x1  J1939.o [1]
+  .bss               zero     0x20001abd      0x1  J1939.o [1]
+  .bss               zero     0x20001abe      0x1  J1939.o [1]
+  .bss               zero     0x20001abf      0x1  J1939.o [1]
+  .bss               zero     0x20001ac0      0x1  J1939.o [1]
+  .bss               zero     0x20001ac1      0x1  J1939.o [1]
+  .bss               zero     0x20001ac2      0x1  J1939.o [1]
+  .bss               zero     0x20001ac3      0x1  J1939.o [1]
+  .bss               zero     0x20001ac4      0x1  J1939.o [1]
+  .bss               zero     0x20001ac5      0x1  J1939.o [1]
+  .bss               zero     0x20001ac6      0x1  J1939.o [1]
+  .bss               zero     0x20001ac7      0x1  J1939.o [1]
+  .bss               zero     0x20001ac8      0x1  J1939.o [1]
+  .bss               zero     0x20001ac9      0x1  J1939.o [1]
+  .bss               zero     0x20001aca      0x1  J1939.o [1]
+  .bss               zero     0x20001acb      0x1  J1939.o [1]
+  .bss               zero     0x20001acc      0x1  J1939.o [1]
+  .bss               zero     0x20001acd      0x1  J1939.o [1]
+  .bss               zero     0x20001ace      0x1  J1939.o [1]
+  .bss               zero     0x20001acf      0x1  J1939.o [1]
+  .bss               zero     0x20001ad0      0x1  J1939.o [1]
+  .bss               zero     0x20001ad1      0x1  J1939.o [1]
+  .bss               zero     0x20001ad2      0x1  J1939.o [1]
+  .bss               zero     0x20001ad3      0x1  J1939.o [1]
+  .bss               zero     0x20001ad4      0x1  J1939.o [1]
+  .bss               zero     0x20001ad5      0x1  J1939.o [1]
+  .bss               zero     0x20001ad6      0x1  J1939.o [1]
+  .bss               zero     0x20001ad7      0x1  J1939.o [1]
+  .bss               zero     0x20001ad8      0x1  J1939.o [1]
+  .bss               zero     0x20001ad9      0x1  J1939.o [1]
+  .bss               zero     0x20001ada      0x1  J1939.o [1]
+  .bss               zero     0x20001adb      0x1  J1939.o [1]
+  .bss               zero     0x20001adc      0x1  J1939.o [1]
+  .bss               zero     0x20001add      0x1  J1939.o [1]
+  .bss               zero     0x20001ade      0x1  J1939.o [1]
+  .bss               zero     0x20001adf      0x1  J1939.o [1]
+  .bss               zero     0x20001ae0      0x1  J1939.o [1]
+  .bss               zero     0x20001ae1      0x1  J1939.o [1]
+  .bss               zero     0x20001ae2      0x1  J1939.o [1]
+  .bss               zero     0x20001ae3      0x1  J1939.o [1]
+  .bss               zero     0x20001ae4      0x1  J1939.o [1]
+  .bss               zero     0x20001ae5      0x1  J1939.o [1]
+  .bss               zero     0x20001ae6      0x1  J1939.o [1]
+  .bss               zero     0x20001ae7      0x1  J1939.o [1]
+  .bss               zero     0x20001ae8      0x1  J1939.o [1]
+  .bss               zero     0x20001ae9      0x1  J1939.o [1]
+  .bss               zero     0x20001aea      0x1  J1939.o [1]
+  .bss               zero     0x20001aeb      0x1  J1939.o [1]
+  .bss               zero     0x20001aec      0x1  J1939.o [1]
+  .bss               zero     0x20001aed      0x1  J1939.o [1]
+  .bss               zero     0x20001aee      0x1  J1939.o [1]
+  .bss               zero     0x20001aef      0x1  J1939.o [1]
+  .bss               zero     0x20001af0      0x1  J1939.o [1]
+  .bss               zero     0x20001af1      0x1  J1939.o [1]
+  .bss               zero     0x20001af2      0x1  J1939.o [1]
+  .bss               zero     0x20001af3      0x1  J1939.o [1]
+  .bss               zero     0x20001af4      0x1  J1939.o [1]
+  .bss               zero     0x20001af5      0x1  J1939.o [1]
+  .bss               zero     0x20001af6      0x1  J1939.o [1]
+  .bss               zero     0x20001af7      0x1  J1939.o [1]
+  .bss               zero     0x20001af8      0x1  J1939.o [1]
+  .bss               zero     0x20001af9      0x1  J1939.o [1]
+  .bss               zero     0x20001afa      0x1  J1939.o [1]
+  .bss               zero     0x20001afb      0x1  J1939.o [1]
+  .bss               zero     0x20001afc      0x1  J1939.o [1]
+  .bss               zero     0x20001afd      0x1  J1939.o [1]
+  .bss               zero     0x20001afe      0x1  J1939.o [1]
+  .bss               zero     0x20001aff      0x1  J1939.o [1]
+  .bss               zero     0x20001b00      0x1  J1939.o [1]
+  .bss               zero     0x20001b01      0x1  J1939.o [1]
+  .bss               zero     0x20001b02      0x1  J1939.o [1]
+  .bss               zero     0x20001b03      0x1  J1939.o [1]
+  .bss               zero     0x20001b04      0x1  J1939.o [1]
+  .bss               zero     0x20001b05      0x1  J1939.o [1]
+  .bss               zero     0x20001b06      0x1  J1939.o [1]
+  .bss               zero     0x20001b07      0x1  J1939.o [1]
+  .bss               zero     0x20001b08      0x1  J1939.o [1]
+  .bss               zero     0x20001b09      0x1  J1939.o [1]
+  .bss               zero     0x20001b0a      0x1  J1939.o [1]
+  .bss               zero     0x20001b0b      0x1  J1939.o [1]
+  .bss               zero     0x20001b0c      0x1  J1939.o [1]
+  .bss               zero     0x20001b0d      0x1  J1939.o [1]
+  .bss               zero     0x20001b0e      0x1  J1939.o [1]
+  .bss               zero     0x20001b0f      0x1  J1939.o [1]
+  .bss               zero     0x20001b10      0x1  J1939.o [1]
+  .bss               zero     0x20001b11      0x1  J1939.o [1]
+  .bss               zero     0x20001b12      0x1  J1939.o [1]
+  .bss               zero     0x20001b13      0x1  J1939.o [1]
+  .bss               zero     0x20001b14      0x1  J1939.o [1]
+  .bss               zero     0x20001b15      0x1  J1939.o [1]
+  .bss               zero     0x20001b16      0x1  J1939.o [1]
+  .bss               zero     0x20001b17      0x1  J1939.o [1]
+  .bss               zero     0x20001b18      0x1  J1939.o [1]
+  .bss               zero     0x20001b19      0x1  J1939.o [1]
+  .bss               zero     0x20001b1a      0x1  J1939.o [1]
+  .bss               zero     0x20001b1b      0x1  J1939.o [1]
+  .bss               zero     0x20001b1c      0x1  J1939.o [1]
+  .bss               zero     0x20001b1d      0x1  J1939.o [1]
+  .bss               zero     0x20001b1e      0x1  J1939.o [1]
+  .bss               zero     0x20001b1f      0x1  J1939.o [1]
+  .bss               zero     0x20001b20      0x1  J1939.o [1]
+  .bss               zero     0x20001b21      0x1  J1939.o [1]
+  .bss               zero     0x20001b22      0x1  J1939.o [1]
+  .bss               zero     0x20001b23      0x1  J1939.o [1]
+  .bss               zero     0x20001b24      0x1  J1939.o [1]
+  .bss               zero     0x20001b25      0x1  J1939.o [1]
+  .bss               zero     0x20001b26      0x1  J1939.o [1]
+  .bss               zero     0x20001b27      0x1  J1939.o [1]
+  .bss               zero     0x20001b28      0x1  J1939.o [1]
+  .bss               zero     0x20001b29      0x1  J1939.o [1]
+  .bss               zero     0x20001b2a      0x1  J1939.o [1]
+  .bss               zero     0x20001b2b      0x1  J1939.o [1]
+  .bss               zero     0x20001b2c      0x1  J1939.o [1]
+  .bss               zero     0x20001b2d      0x1  J1939.o [1]
+  .bss               zero     0x20001b2e      0x1  J1939.o [1]
+  .bss               zero     0x20001b2f      0x1  J1939.o [1]
+  .bss               zero     0x20001b30      0x1  J1939.o [1]
+  .bss               zero     0x20001b31      0x1  J1939.o [1]
+  .bss               zero     0x20001b32      0x1  J1939.o [1]
+  .bss               zero     0x20001b33      0x1  J1939.o [1]
+  .bss               zero     0x20001b34      0x1  J1939.o [1]
+  .bss               zero     0x20001b35      0x1  J1939.o [1]
+  .bss               zero     0x20001b36      0x1  J1939.o [1]
+  .bss               zero     0x20001b37      0x1  J1939.o [1]
+  .bss               zero     0x20001b38      0x1  J1939.o [1]
+  .bss               zero     0x20001b39      0x1  J1939.o [1]
+  .bss               zero     0x20001b3a      0x1  J1939.o [1]
+  .bss               zero     0x20001b3b      0x1  J1939.o [1]
+  .bss               zero     0x20001b3c      0x1  J1939.o [1]
+  .bss               zero     0x20001b3d      0x1  J1939.o [1]
+  .bss               zero     0x20001b3e      0x1  J1939.o [1]
+  .bss               zero     0x20001b3f      0x1  J1939.o [1]
+  .bss               zero     0x20001b40      0x1  J1939.o [1]
+  .bss               zero     0x20001b41      0x1  J1939.o [1]
+  .bss               zero     0x20001b42      0x1  J1939.o [1]
+  .bss               zero     0x20001b43      0x1  J1939.o [1]
+  .bss               zero     0x20001b44      0x1  J1939.o [1]
+  .bss               zero     0x20001b45      0x1  J1939.o [1]
+  .bss               zero     0x20001b46      0x1  J1939.o [1]
+  .bss               zero     0x20001b47      0x1  J1939.o [1]
+  .bss               zero     0x20001b48      0x1  J1939.o [1]
+  .bss               zero     0x20001b49      0x1  J1939.o [1]
+  .bss               zero     0x20001b4a      0x1  J1939.o [1]
+  .bss               zero     0x20001b4b      0x1  J1939.o [1]
+  .bss               zero     0x20001b4c      0x1  J1939.o [1]
+  .bss               zero     0x20001b4d      0x1  J1939.o [1]
+  .bss               zero     0x20001b4e      0x1  J1939.o [1]
+  .bss               zero     0x20001b4f      0x1  J1939.o [1]
+  .bss               zero     0x20001b50      0x1  J1939.o [1]
+  .bss               zero     0x20001b51      0x1  J1939.o [1]
+  .bss               zero     0x20001b52      0x1  main.o [1]
+  .bss               zero     0x20001b53      0x1  main.o [1]
+  .bss               zero     0x20001b54      0x1  main.o [1]
+  .bss               zero     0x20001b55      0x1  main.o [1]
+  .bss               zero     0x20001b56      0x1  main.o [1]
+  .bss               zero     0x20001b57      0x1  usart.o [1]
+  .bss               zero     0x20001b58      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b59      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b5a      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b5b      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b5c      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b5d      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b5e      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b5f      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b60      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b61      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b62      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b63      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b64      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b65      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b66      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b67      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b68      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b69      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b6a      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b6b      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b6c      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b6d      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b6e      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b6f      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b70      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b71      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b72      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b73      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b74      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b75      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b76      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b77      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b78      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b79      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b7a      0x1  Yvc1_HAL.o [1]
+  .bss               zero     0x20001b7b      0x1  Yvc1_HAL.o [1]
+                            - 0x20001b7c   0x15c0
+
+"P2", part 3 of 3:                          0x400
+  CSTACK                      0x20001b80    0x400  <Block>
+    CSTACK           uninit   0x20001b80    0x400  <Block tail>
+                            - 0x20001f80    0x400
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x15c0:
+          0x200005bc  0x15c0
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x1f1 (33% of destination):
+          0x0801bac8   0x1f1
+    1 destination range, total size 0x5bc:
+          0x20000000   0x5bc
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj: [1]
+    AT93C56.o                   708
+    J1939.o                  12 396               778
+    RPM.o                       388                26
+    Yvc1Ddrv.o                2 076       26
+    Yvc1Fontctrl.o            1 038
+    Yvc1Lyr.o                 1 116        6
+    Yvc1Pmem.o                  598       27       80
+    Yvc1Vin.o                   108        1
+    Yvc1_HAL.o               44 704      784    2 463
+    adc.o                       768             2 203
+    can.o                     1 616               970
+    dwt_stm32_delay.o           112                 1
+    i2c.o                       168                84
+    input.o                     534       23      108
+    layoutData.o                      18 036
+    main.o                      358                17
+    output.o                    644                 4
+    pcode.o                            2 864
+    sound.o                   1 092                60
+    spi.o                       240                88
+    startup_stm32f407xx.o       708
+    stm32f4xx_hal.o             216        1        9
+    stm32f4xx_hal_adc.o       1 416
+    stm32f4xx_hal_can.o       1 716
+    stm32f4xx_hal_cortex.o      340
+    stm32f4xx_hal_dma.o       1 300        8
+    stm32f4xx_hal_gpio.o        640
+    stm32f4xx_hal_i2c.o         496
+    stm32f4xx_hal_rcc.o       1 596
+    stm32f4xx_hal_spi.o       2 016
+    stm32f4xx_hal_tim.o       1 964
+    stm32f4xx_hal_tim_ex.o      258
+    stm32f4xx_hal_uart.o      1 702
+    system.o                    416
+    system_stm32f4xx.o           32       25        4
+    timer.o                     444        8       72
+    tw9990.o                    292
+    usart.o                     212                69
+    watchdog.o                  292
+    -------------------------------------------------
+    Total:                   84 720   21 809    7 036
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    exit.o                        4
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                        8
+
+m7M_tls.a: [4]
+    DblAdd.o                    376
+    DblCmpEq.o                   32
+    DblCmpGe.o                   46
+    DblCmpLe.o                   46
+    DblDiv.o                    582
+    DblMul.o                    418
+    DblSub.o                    226
+    DblToFlt.o                  104
+    DblToS32.o                   58
+    FltToDbl.o                   72
+    S32ToDbl.o                   34
+    fpinit_M.o                   34
+    frexp.o                     112
+    iar_Exp64.o               1 048
+    ldexp.o                     314
+    math_wrappers64.o            22
+    pow64.o                   2 856
+    -------------------------------------------------
+    Total:                    6 380
+
+rt7M_tl.a: [5]
+    ABImemclr4.o                  6
+    ABImemcpy.o                 134
+    ABImemset.o                 102
+    ABImemset48.o                50
+    I64DivMod.o                 238
+    I64DivZer.o                   2
+    cexit.o                      10
+    cmain.o                      26
+    cstartup_M.o                 12
+    data_init.o                  40
+    lz77_init_single.o          122
+    strlen.o                     54
+    zero_init3.o                 64
+    -------------------------------------------------
+    Total:                      860
+
+shb_l.a: [6]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                         15        4
+    Linker created                        33    1 024
+-----------------------------------------------------
+    Grand Total:             92 003   21 846    8 060
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.iar.init_table$$Base   0x0801b518           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0801b538           --   Gb  - Linker created -
+?main                   0x0801b559          Code  Gb  cmain.o [5]
+ADC_DMAConvCplt         0x080144b5    0x76  Code  Lc  stm32f4xx_hal_adc.o [1]
+ADC_DMAError            0x08014539    0x16  Code  Lc  stm32f4xx_hal_adc.o [1]
+ADC_DMAHalfConvCplt     0x0801452d     0xa  Code  Lc  stm32f4xx_hal_adc.o [1]
+ADC_Init                0x08014333   0x15a  Code  Lc  stm32f4xx_hal_adc.o [1]
+AG_auger_potentiometer_value
+                        0x200018e4     0x2  Data  Gb  can.o [1]
+AHBPrescTable           0x0801b8fc    0x10  Data  Gb  system_stm32f4xx.o [1]
+APBPrescTable           0x0801b97c     0x8  Data  Gb  system_stm32f4xx.o [1]
+Angle_Object_prev       0x20001a0a     0x2  Data  Lc  Yvc1_HAL.o [1]
+BTN_PAGE_GT             0x08019910   0x234  Data  Gb  layoutData.o [1]
+BusFault_Handler        0x080116fb     0x2  Code  Gb  system.o [1]
+CAN1_RX0_IRQHandler     0x08011fcb     0xa  Code  Gb  can.o [1]
+CAN2_RX0_IRQHandler     0x08011fd5     0xa  Code  Gb  can.o [1]
+CC_PITCH_CYLINDER_LEVEL
+                        0x0801b90c    0x10  Data  Gb  Yvc1_HAL.o [1]
+CC_lift_sensor_val      0x200018e0     0x2  Data  Gb  can.o [1]
+CC_pitching_cylinder_val
+                        0x200018dc     0x2  Data  Gb  can.o [1]
+CC_pitching_cylinder_val_level
+                        0x20001b72     0x1  Data  Lc  Yvc1_HAL.o [1]
+CC_pitching_cylinder_val_prev
+                        0x20001a14     0x2  Data  Lc  Yvc1_HAL.o [1]
+CC_power_clutch_sensor  0x200018de     0x2  Data  Gb  can.o [1]
+CC_vehicle_speed_val    0x200018e2     0x2  Data  Gb  can.o [1]
+CSTACK$$Base            0x20001b80           --   Gb  - Linker created -
+CSTACK$$Limit           0x20001f80           --   Gb  - Linker created -
+ConvFCode               0x0800d191    0x90  Code  Lc  Yvc1Fontctrl.o [1]
+ConvFCodeString_utf8    0x0800d221   0x29a  Code  Gb  Yvc1Fontctrl.o [1]
+DCU_DTC_counter         0x20001a84     0x1  Data  Gb  J1939.o [1]
+DCU_DTC_counter_received
+                        0x20001a85     0x1  Data  Gb  J1939.o [1]
+DCU_DTC_current         0x20001a86     0x1  Data  Gb  J1939.o [1]
+DCU_FMI                 0x200016a8    0x14  Data  Gb  J1939.o [1]
+DCU_Occurrence_count    0x200016bc    0x14  Data  Gb  J1939.o [1]
+DCU_SPN                 0x200013f8    0x50  Data  Gb  J1939.o [1]
+DCU_SPN_Conversion_method
+                        0x200016d0    0x14  Data  Gb  J1939.o [1]
+DCU_error_flag          0x20001a87     0x1  Data  Gb  J1939.o [1]
+DMA2_Stream0_IRQHandler
+                        0x0800dc97    0x10  Code  Gb  adc.o [1]
+DMA_CalcBaseAndBitshift
+                        0x0801499f    0x30  Code  Lc  stm32f4xx_hal_dma.o [1]
+DMA_CalcBaseAndBitshift::flagBitshiftOffset
+                        0x0801b974     0x8  Data  Lc  stm32f4xx_hal_dma.o [1]
+DMA_CheckFifoParam      0x080149dd    0x88  Code  Lc  stm32f4xx_hal_dma.o [1]
+DMA_SetConfig           0x08014971    0x2e  Code  Lc  stm32f4xx_hal_dma.o [1]
+DWT_Delay_Init          0x080114d5    0x70  Code  Gb  dwt_stm32_delay.o [1]
+DWT_Delay_Init_flag     0x20001a79     0x1  Data  Gb  dwt_stm32_delay.o [1]
+DWT_Delay_us            0x0800b029    0x20  Code  Lc  AT93C56.o [1]
+Data1_value_FC          0x0801b59c    0x18  Data  Gb  layoutData.o [1]
+Data2_value_FC          0x0801b5b4    0x18  Data  Gb  layoutData.o [1]
+Data3_value_FC          0x0801b5cc    0x18  Data  Gb  layoutData.o [1]
+Data4_value_FC          0x0801b5e4    0x18  Data  Gb  layoutData.o [1]
+DebugMon_Handler        0x08011701     0x2  Code  Gb  system.o [1]
+DrawWarningCombineCheck
+                        0x08003615   0x56c  Code  Gb  Yvc1_HAL.o [1]
+DrawWarningCombineCheckMessage
+                        0x08001e81  0x1728  Code  Gb  Yvc1_HAL.o [1]
+ECU_DTC_counter         0x20001a7d     0x1  Data  Gb  J1939.o [1]
+ECU_DTC_counter_received
+                        0x20001a7e     0x1  Data  Gb  J1939.o [1]
+ECU_DTC_current         0x20001a7f     0x1  Data  Gb  J1939.o [1]
+ECU_FMI                 0x2000166c    0x14  Data  Gb  J1939.o [1]
+ECU_Occurrence_count    0x20001680    0x14  Data  Gb  J1939.o [1]
+ECU_SPN                 0x200013a8    0x50  Data  Gb  J1939.o [1]
+ECU_SPN_Conversion_method
+                        0x20001694    0x14  Data  Gb  J1939.o [1]
+ECU_error_flag          0x20001a80     0x1  Data  Gb  J1939.o [1]
+ET1_message_flag        0x20001abb     0x1  Data  Gb  J1939.o [1]
+EXTI15_10_IRQHandler    0x08011711    0x14  Code  Gb  system.o [1]
+EXTI9_5_IRQHandler      0x0800bdf9     0xa  Code  Gb  input.o [1]
+Error_Handler           0x0800b99b     0x4  Code  Gb  main.o [1]
+Error_message_1_FC      0x0801b614    0x18  Data  Gb  layoutData.o [1]
+FUEL_ADC_PERCENTAGES    0x0801a9f8    0x80  Data  Gb  Yvc1_HAL.o [1]
+FUEL_ADC_PERCENTAGES_NEXT
+                        0x0801aa78    0x80  Data  Gb  Yvc1_HAL.o [1]
+GetFSize                0x0800d123    0x2a  Code  Lc  Yvc1Fontctrl.o [1]
+GetFontTypeAttr         0x0800d14d    0x12  Code  Lc  Yvc1Fontctrl.o [1]
+GetXsXe                 0x0800d15f    0x32  Code  Lc  Yvc1Fontctrl.o [1]
+HAL_ADC_ConfigChannel   0x080141b5   0x17e  Code  Gb  stm32f4xx_hal_adc.o [1]
+HAL_ADC_Init            0x08013fcd    0x64  Code  Gb  stm32f4xx_hal_adc.o [1]
+HAL_ADC_MspInit         0x0800dbcb    0x9c  Code  Gb  adc.o [1]
+HAL_ADC_Start_DMA       0x08014031   0x184  Code  Gb  stm32f4xx_hal_adc.o [1]
+HAL_CAN_ActivateNotification
+                        0x08015ce3    0x2a  Code  Gb  stm32f4xx_hal_can.o [1]
+HAL_CAN_ConfigFilter    0x08015a0d   0x122  Code  Gb  stm32f4xx_hal_can.o [1]
+HAL_CAN_GetRxMessage    0x08015b91   0x152  Code  Gb  stm32f4xx_hal_can.o [1]
+HAL_CAN_IRQHandler      0x08015d0d   0x230  Code  Gb  stm32f4xx_hal_can.o [1]
+HAL_CAN_Init            0x080158a1   0x16c  Code  Gb  stm32f4xx_hal_can.o [1]
+HAL_CAN_MspInit         0x08011ea9   0x10e  Code  Gb  can.o [1]
+HAL_CAN_RxFifo0MsgPendingCallback
+                        0x08011d39    0x5e  Code  Gb  can.o [1]
+HAL_CAN_Start           0x08015b2f    0x5c  Code  Gb  stm32f4xx_hal_can.o [1]
+HAL_DMA_Abort           0x080146a5    0x9c  Code  Gb  stm32f4xx_hal_dma.o [1]
+HAL_DMA_Abort_IT        0x08014741    0x26  Code  Gb  stm32f4xx_hal_dma.o [1]
+HAL_DMA_IRQHandler      0x08014767   0x20a  Code  Gb  stm32f4xx_hal_dma.o [1]
+HAL_DMA_Init            0x08014551    0xe0  Code  Gb  stm32f4xx_hal_dma.o [1]
+HAL_DMA_Start_IT        0x08014631    0x74  Code  Gb  stm32f4xx_hal_dma.o [1]
+HAL_Delay               0x08012015    0x28  Code  Wk  stm32f4xx_hal.o [1]
+HAL_GPIO_EXTI_Callback  0x08010e81    0x12  Code  Gb  RPM.o [1]
+HAL_GPIO_EXTI_IRQHandler
+                        0x0800b7e1    0x1a  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GPIO_Init           0x0800b5b9   0x1ee  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GPIO_ReadPin        0x0800b7a7    0x12  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GPIO_TogglePin      0x0800b7cd    0x14  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GPIO_WritePin       0x0800b7b9    0x14  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GetTick             0x08014a99     0xc  Code  Wk  stm32f4xx_hal.o [1]
+HAL_I2C_Init            0x080156b1   0x1d8  Code  Gb  stm32f4xx_hal_i2c.o [1]
+HAL_I2C_MspInit         0x08011967    0x4a  Code  Gb  i2c.o [1]
+HAL_IncTick             0x08014ff9    0x18  Code  Wk  stm32f4xx_hal.o [1]
+HAL_Init                0x08011545    0x3a  Code  Gb  stm32f4xx_hal.o [1]
+HAL_InitTick            0x08014aa5    0x4c  Code  Wk  stm32f4xx_hal.o [1]
+HAL_MspInit             0x08011651    0x96  Code  Gb  system.o [1]
+HAL_NVIC_EnableIRQ      0x08011255     0xa  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority    0x08011233    0x22  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                        0x0801122b     0x8  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_RCC_CAN1_CLK_ENABLED
+                        0x20001838     0x4  Data  Lc  can.o [1]
+HAL_RCC_ClockConfig     0x080112b1   0x14c  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_GetHCLKFreq     0x080113fd     0x6  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK1Freq    0x08011403    0x16  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK2Freq    0x08011419    0x16  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_OscConfig       0x08014be1   0x418  Code  Wk  stm32f4xx_hal_rcc.o [1]
+HAL_SPI_Init            0x0801203d    0xce  Code  Gb  stm32f4xx_hal_spi.o [1]
+HAL_SPI_MspInit         0x0800ba35    0x4a  Code  Gb  spi.o [1]
+HAL_SPI_Receive         0x080122bb   0x178  Code  Gb  stm32f4xx_hal_spi.o [1]
+HAL_SPI_Transmit        0x0801210b   0x1b0  Code  Gb  stm32f4xx_hal_spi.o [1]
+HAL_SPI_TransmitReceive
+                        0x08012433   0x220  Code  Gb  stm32f4xx_hal_spi.o [1]
+HAL_SYSTICK_CLKSourceConfig
+                        0x08011267    0x20  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_SYSTICK_Callback    0x0800b8bb    0x14  Code  Gb  main.o [1]
+HAL_SYSTICK_Config      0x0801125f     0x8  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_SYSTICK_IRQHandler  0x080112a9     0x8  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_TIMEx_ConfigBreakDeadTime
+                        0x08013bfd    0x5a  Code  Gb  stm32f4xx_hal_tim_ex.o [1]
+HAL_TIMEx_MasterConfigSynchronization
+                        0x08013b55    0x8c  Code  Gb  stm32f4xx_hal_tim_ex.o [1]
+HAL_TIM_Base_Init       0x080133a9    0x6e  Code  Gb  stm32f4xx_hal_tim.o [1]
+HAL_TIM_Base_MspInit    0x0800be05    0x2a  Code  Gb  timer.o [1]
+HAL_TIM_Base_Start      0x08013417    0x8a  Code  Gb  stm32f4xx_hal_tim.o [1]
+HAL_TIM_ConfigClockSource
+                        0x0801374b    0xee  Code  Gb  stm32f4xx_hal_tim.o [1]
+HAL_TIM_MspPostInit     0x0800be2f    0x54  Code  Gb  timer.o [1]
+HAL_TIM_PWM_ConfigChannel
+                        0x08013655    0xf6  Code  Gb  stm32f4xx_hal_tim.o [1]
+HAL_TIM_PWM_Init        0x080134bd    0x6e  Code  Gb  stm32f4xx_hal_tim.o [1]
+HAL_TIM_PWM_Start       0x0801352b   0x10c  Code  Gb  stm32f4xx_hal_tim.o [1]
+HAL_UART_IRQHandler     0x08015087   0x292  Code  Gb  stm32f4xx_hal_uart.o [1]
+HAL_UART_Init           0x08015011    0x76  Code  Gb  stm32f4xx_hal_uart.o [1]
+HAL_UART_MspInit        0x080118ad    0x5a  Code  Gb  usart.o [1]
+HAL_UART_RxCpltCallback
+                        0x08011859    0x10  Code  Gb  usart.o [1]
+HardFault_Handler       0x080116f7     0x2  Code  Gb  system.o [1]
+IC_garage_left_sensor   0x200018da     0x2  Data  Gb  can.o [1]
+IC_garage_right_sensor  0x200018d6     0x2  Data  Gb  can.o [1]
+IC_inclination          0x200018d8     0x2  Data  Gb  can.o [1]
+J1939_A1DEFI_message_handler
+                        0x0801003d    0x3e  Code  Gb  J1939.o [1]
+J1939_A1DEFT1I_message_handler
+                        0x0800fff1    0x40  Code  Gb  J1939.o [1]
+J1939_A1SCRDSI1_message_handler
+                        0x0800ff89    0x34  Code  Gb  J1939.o [1]
+J1939_A1SCREGT1_message_handler
+                        0x0800ffc5    0x20  Code  Gb  J1939.o [1]
+J1939_AMB_message_handler
+                        0x0800fb5d    0x3c  Code  Gb  J1939.o [1]
+J1939_AT1IG2_message_handler
+                        0x0800fe95    0x38  Code  Gb  J1939.o [1]
+J1939_AT1IMG_message_handler
+                        0x0800fe39    0x5c  Code  Gb  J1939.o [1]
+J1939_AT1S_message_handler
+                        0x0800fd73    0x2c  Code  Gb  J1939.o [1]
+J1939_AT1T1I_message_handler
+                        0x080100a5    0x64  Code  Gb  J1939.o [1]
+J1939_ATR_message_handler
+                        0x0800f8bf    0x6a  Code  Gb  J1939.o [1]
+J1939_ATS_message_handler
+                        0x0800f849    0x76  Code  Gb  J1939.o [1]
+J1939_CI_message_handler
+                        0x0800fb0d     0x2  Code  Gb  J1939.o [1]
+J1939_DCU_BAM_DATA_message_handler
+                        0x0800e94d   0x63c  Code  Gb  J1939.o [1]
+J1939_DCU_BAM_HEAD_message_handler
+                        0x0800e881    0x5c  Code  Gb  J1939.o [1]
+J1939_DM1_DCU_message_handler
+                        0x0800f7b5    0x94  Code  Gb  J1939.o [1]
+J1939_DM1_ECU_message_handler
+                        0x0800f6c1    0xf4  Code  Gb  J1939.o [1]
+J1939_DPFC1_message_handler
+                        0x0800fc5d   0x116  Code  Gb  J1939.o [1]
+J1939_EBC1_message_handler
+                        0x0800fd9f    0x1a  Code  Gb  J1939.o [1]
+J1939_ECU_BAM_DATA_message_handler
+                        0x0800e191   0x6e6  Code  Gb  J1939.o [1]
+J1939_ECU_BAM_HEAD_message_handler
+                        0x0800e123    0x6c  Code  Gb  J1939.o [1]
+J1939_EEC1_message_handler
+                        0x0800f98f    0x46  Code  Gb  J1939.o [1]
+J1939_EEC2_message_handler
+                        0x0800f929    0x66  Code  Gb  J1939.o [1]
+J1939_EEC3_message_handler
+                        0x0800fa21    0x94  Code  Gb  J1939.o [1]
+J1939_EFLP2_message_handler
+                        0x0800fecd    0x3c  Code  Gb  J1939.o [1]
+J1939_ET1_message_handler
+                        0x0800fb11    0x46  Code  Gb  J1939.o [1]
+J1939_ET2_message_handler
+                        0x0800f9d5    0x3c  Code  Gb  J1939.o [1]
+J1939_HOURS_message_handler
+                        0x0800fac9    0x38  Code  Gb  J1939.o [1]
+J1939_IC1_message_handler
+                        0x0800ff3d    0x40  Code  Gb  J1939.o [1]
+J1939_LFC_message_handler
+                        0x0800fb9d    0x38  Code  Gb  J1939.o [1]
+J1939_LFE_message_handler
+                        0x0800fbd5    0x36  Code  Gb  J1939.o [1]
+J1939_SEP1_message_handler
+                        0x0800fdf9    0x3c  Code  Gb  J1939.o [1]
+J1939_TFAC_message_handler
+                        0x0800fdb9    0x3c  Code  Gb  J1939.o [1]
+J1939_VEP_message_handler
+                        0x0800fc15    0x3c  Code  Gb  J1939.o [1]
+J1939_VI_message_handler
+                        0x0800fb0f     0x2  Code  Gb  J1939.o [1]
+J1939_YATF_message_handler
+                        0x08010539    0x82  Code  Gb  J1939.o [1]
+J1939_YDPFC1_message_handler
+                        0x08010605    0x3c  Code  Gb  J1939.o [1]
+J1939_YDPFC2_message_handler
+                        0x08010691    0x3c  Code  Gb  J1939.o [1]
+J1939_YDPFIF_message_handler
+                        0x08010441    0x24  Code  Gb  J1939.o [1]
+J1939_YECACK1_message_handler
+                        0x08010145    0x22  Code  Gb  J1939.o [1]
+J1939_YECR1_message_handler
+                        0x08010119    0x22  Code  Gb  J1939.o [1]
+J1939_YEC_message_handler
+                        0x08010229    0x3e  Code  Gb  J1939.o [1]
+J1939_YEGRP_message_handler
+                        0x08010485    0x3e  Code  Gb  J1939.o [1]
+J1939_YESI_message_handler
+                        0x08010401    0x2e  Code  Gb  J1939.o [1]
+J1939_YEST_message_handler
+                        0x080106d9    0x5e  Code  Gb  J1939.o [1]
+J1939_YETVP_message_handler
+                        0x080104d9    0x3c  Code  Gb  J1939.o [1]
+J1939_YINJQ_message_handler
+                        0x080107d5    0x3c  Code  Gb  J1939.o [1]
+J1939_YIOS_message_handler
+                        0x0801017d    0x4e  Code  Gb  J1939.o [1]
+J1939_YLF_message_handler
+                        0x080101dd    0x48  Code  Gb  J1939.o [1]
+J1939_YMPR_message_handler
+                        0x0801074d    0x3e  Code  Gb  J1939.o [1]
+J1939_YPMD_message_handler
+                        0x080105c1    0x3c  Code  Gb  J1939.o [1]
+J1939_YPOFS_message_handler
+                        0x08010791    0x36  Code  Gb  J1939.o [1]
+J1939_YPOI_message_handler
+                        0x08010641    0x3c  Code  Gb  J1939.o [1]
+J1939_YSCRCTL3_message_handler
+                        0x0801099d    0x34  Code  Gb  J1939.o [1]
+J1939_YSCRHTR_message_handler
+                        0x080109f1    0x56  Code  Gb  J1939.o [1]
+J1939_YSCRIS_message_handler
+                        0x08010aa5    0x44  Code  Gb  J1939.o [1]
+J1939_YSCRMOD_message_handler
+                        0x08010951    0x34  Code  Gb  J1939.o [1]
+J1939_YSCRSO_message_handler
+                        0x08010a51    0x34  Code  Gb  J1939.o [1]
+J1939_YSCRSTL1_message_handler
+                        0x08010869    0x3c  Code  Gb  J1939.o [1]
+J1939_YSCRSTL2_message_handler
+                        0x080108c5    0x72  Code  Gb  J1939.o [1]
+J1939_YSCRST_message_handler
+                        0x08010815    0x4c  Code  Gb  J1939.o [1]
+J1939_YSRF_message_handler
+                        0x080102bd    0xe8  Code  Gb  J1939.o [1]
+J1939_YSRSI_message_handler
+                        0x080103b5    0x3c  Code  Gb  J1939.o [1]
+J1939_YSTP_message_handler
+                        0x08010267     0xe  Code  Gb  J1939.o [1]
+J1939_message_handler   0x0800dce1   0x3e0  Code  Gb  J1939.o [1]
+MAIN_GT                 0x08018fc8   0x384  Data  Gb  layoutData.o [1]
+MAIN_RPM_GT             0x080165a8   0x954  Data  Gb  layoutData.o [1]
+MC_driveing_lever       0x200018f0     0x2  Data  Gb  can.o [1]
+MC_steering_lever       0x200018f2     0x2  Data  Gb  can.o [1]
+MC_subshift_lever       0x200018ee     0x2  Data  Gb  can.o [1]
+MODE000_GT              0x0801aaf8    0x78  Data  Gb  layoutData.o [1]
+MODE1111_GT             0x0801ae40    0x3c  Data  Gb  layoutData.o [1]
+MODE1112_GT             0x0801b064    0x30  Data  Gb  layoutData.o [1]
+MODE1113_GT             0x0801ae7c    0x3c  Data  Gb  layoutData.o [1]
+MODE1114_GT             0x0801aeb8    0x3c  Data  Gb  layoutData.o [1]
+MODE1115_GT             0x08019b44   0x1e0  Data  Gb  layoutData.o [1]
+MODE1116_GT             0x0801adb8    0x48  Data  Gb  layoutData.o [1]
+MODE1xx_GT              0x0801ab70    0x78  Data  Gb  layoutData.o [1]
+MODE2xx_GT              0x08018c2c   0x39c  Data  Gb  layoutData.o [1]
+MODE311_GT              0x08017fcc   0x450  Data  Gb  layoutData.o [1]
+MODE312_GT              0x0801a854    0x90  Data  Gb  layoutData.o [1]
+MODE313_GT              0x0801a974    0x84  Data  Gb  layoutData.o [1]
+MODE314_GT              0x08019694   0x27c  Data  Gb  layoutData.o [1]
+MODE315_GT              0x08016efc   0x6c0  Data  Gb  layoutData.o [1]
+MODE31x_GT              0x0801a608    0xe4  Data  Gb  layoutData.o [1]
+MODE32x_GT              0x08019d24   0x168  Data  Gb  layoutData.o [1]
+MODE33x_GT              0x0801a6ec    0xc0  Data  Gb  layoutData.o [1]
+MODE34x_GT              0x0801a7ac    0xa8  Data  Gb  layoutData.o [1]
+MODE35x_GT              0x0801abe8    0x78  Data  Gb  layoutData.o [1]
+MODE36x_GT              0x0801aef4    0x3c  Data  Gb  layoutData.o [1]
+MODE3xx_GT              0x0801ac60    0x60  Data  Gb  layoutData.o [1]
+MODE4xx_GT              0x0801b884    0x18  Data  Gb  layoutData.o [1]
+MODE5xx_GT              0x08019e8c   0x15c  Data  Gb  layoutData.o [1]
+MODE6xx_GT              0x0801a8e4    0x90  Data  Gb  layoutData.o [1]
+MX_CAN1_Init            0x08011da9    0xa8  Code  Gb  can.o [1]
+MX_CAN_FILTER_Init      0x08011e51    0x58  Code  Gb  can.o [1]
+MemManage_Handler       0x080116f9     0x2  Code  Gb  system.o [1]
+NMI_Handler             0x080116f5     0x2  Code  Gb  system.o [1]
+NVIC_EncodePriority     0x080111bf    0x3e  Code  Lc  stm32f4xx_hal_cortex.o [1]
+PaletteData_LYT         0x0801b944     0x8  Data  Gb  layoutData.o [1]
+PendSV_Handler          0x08011703     0x2  Code  Gb  system.o [1]
+Region$$Table$$Base     0x0801b518           --   Gb  - Linker created -
+Region$$Table$$Limit    0x0801b538           --   Gb  - Linker created -
+SPI_EndRxTransaction    0x08012723    0x94  Code  Lc  stm32f4xx_hal_spi.o [1]
+SPI_EndRxTxTransaction  0x080127b7    0x5c  Code  Lc  stm32f4xx_hal_spi.o [1]
+SPI_Receive             0x0800b9b3    0x12  Code  Gb  spi.o [1]
+SPI_Transmit            0x0800b9a1    0x12  Code  Gb  spi.o [1]
+SPI_WaitFlagStateUntilTimeout
+                        0x08012653    0xd0  Code  Lc  stm32f4xx_hal_spi.o [1]
+SVC_Handler             0x080116ff     0x2  Code  Gb  system.o [1]
+SysTick_Config          0x080111fd    0x2e  Code  Lc  stm32f4xx_hal_cortex.o [1]
+SysTick_Handler         0x08011705     0xc  Code  Gb  system.o [1]
+SystemClock_Config      0x08011585    0xcc  Code  Gb  system.o [1]
+SystemCoreClock         0x20000048     0x4  Data  Gb  system_stm32f4xx.o [1]
+SystemInit              0x0801b539    0x16  Code  Gb  system_stm32f4xx.o [1]
+T0_IDS_DATA4_VALUE      0x0801b094    0x28  Data  Lc  layoutData.o [1]
+T10_IDS_VALUE           0x0801b1ac    0x28  Data  Lc  layoutData.o [1]
+T11_IDS_CAN_RAW_DATA_12
+                        0x0801b1d4    0x28  Data  Lc  layoutData.o [1]
+T12_IDS_CAN_RAW_DATA_11
+                        0x0801b1fc    0x28  Data  Lc  layoutData.o [1]
+T13_IDS_CAN_RAW_DATA_10
+                        0x0801b224    0x28  Data  Lc  layoutData.o [1]
+T14_IDS_CAN_RAW_DATA_9  0x0801b24c    0x28  Data  Lc  layoutData.o [1]
+T15_IDS_CAN_RAW_DATA_8  0x0801b274    0x28  Data  Lc  layoutData.o [1]
+T16_IDS_CAN_RAW_DATA_7  0x0801b29c    0x28  Data  Lc  layoutData.o [1]
+T17_IDS_CAN_RAW_DATA_6  0x0801b2c4    0x28  Data  Lc  layoutData.o [1]
+T18_IDS_CAN_RAW_DATA_5  0x0801b2ec    0x28  Data  Lc  layoutData.o [1]
+T19_IDS_CAN_RAW_DATA_4  0x0801b314    0x28  Data  Lc  layoutData.o [1]
+T1_IDS_DATA3_VALUE      0x0801b0bc    0x28  Data  Lc  layoutData.o [1]
+T20_IDS_CAN_RAW_DATA_3  0x0801b33c    0x28  Data  Lc  layoutData.o [1]
+T21_IDS_CAN_RAW_DATA_2  0x0801b364    0x28  Data  Lc  layoutData.o [1]
+T22_IDS_CAN_RAW_DATA_1  0x0801b38c    0x28  Data  Lc  layoutData.o [1]
+T23_IDS_CAN_DATA_CK5    0x0801afd4    0x30  Data  Lc  layoutData.o [1]
+T24_IDS_CAN_DATA_CK4    0x0801b004    0x30  Data  Lc  layoutData.o [1]
+T25_IDS_CAN_DATA_CK3    0x0801b3b4    0x28  Data  Lc  layoutData.o [1]
+T26_IDS_CAN_DATA_CK2    0x0801b034    0x30  Data  Lc  layoutData.o [1]
+T27_IDS_CAN_DATA_CK1    0x0801b3dc    0x28  Data  Lc  layoutData.o [1]
+T28_IDS_CAN_DATA_EG1    0x0801b404    0x28  Data  Lc  layoutData.o [1]
+T29_IDS_CAN_DATA_EG2    0x0801b42c    0x28  Data  Lc  layoutData.o [1]
+T2_IDS_DATA2_VALUE      0x0801b0e4    0x28  Data  Lc  layoutData.o [1]
+T30_IDS_CAN_DATA_EG3    0x0801b454    0x28  Data  Lc  layoutData.o [1]
+T31_IDS_CAN_DATA_EG4    0x0801b47c    0x28  Data  Lc  layoutData.o [1]
+T32_IDS_TIME            0x0801ad18    0x58  Data  Lc  layoutData.o [1]
+T33_IDS_LCD1_VALUE      0x0801af30    0x38  Data  Lc  layoutData.o [1]
+T34_IDS_LCD2_VALUE      0x0801af68    0x38  Data  Lc  layoutData.o [1]
+T35_IDS_LCD3_VALUE      0x0801b4a4    0x28  Data  Lc  layoutData.o [1]
+T3_IDS_DATA1_VALUE      0x0801b10c    0x28  Data  Lc  layoutData.o [1]
+T4_IDS_CPU              0x0801acc0    0x58  Data  Lc  layoutData.o [1]
+T6_IDS_TEXT             0x0801ad70    0x48  Data  Lc  layoutData.o [1]
+T7_IDS_PAGE114_TEXT     0x0801b134    0x28  Data  Lc  layoutData.o [1]
+T8_IDS_PAGE115_TEXT1    0x0801b15c    0x28  Data  Lc  layoutData.o [1]
+T9_IDS_PAGE115_TEXT2    0x0801b184    0x28  Data  Lc  layoutData.o [1]
+TIM_Base_SetConfig      0x08013839    0xc4  Code  Gb  stm32f4xx_hal_tim.o [1]
+TIM_CCxChannelCmd       0x08013b2d    0x26  Code  Gb  stm32f4xx_hal_tim.o [1]
+TIM_ETR_SetConfig       0x08013b17    0x16  Code  Gb  stm32f4xx_hal_tim.o [1]
+TIM_ITRx_SetConfig      0x08013b07    0x10  Code  Lc  stm32f4xx_hal_tim.o [1]
+TIM_OC1_SetConfig       0x080138fd    0x66  Code  Lc  stm32f4xx_hal_tim.o [1]
+TIM_OC2_SetConfig       0x08013963    0x70  Code  Gb  stm32f4xx_hal_tim.o [1]
+TIM_OC3_SetConfig       0x080139d3    0x6e  Code  Lc  stm32f4xx_hal_tim.o [1]
+TIM_OC4_SetConfig       0x08013a41    0x4c  Code  Lc  stm32f4xx_hal_tim.o [1]
+TIM_TI1_ConfigInputStage
+                        0x08013abd    0x24  Code  Lc  stm32f4xx_hal_tim.o [1]
+TIM_TI2_ConfigInputStage
+                        0x08013ae1    0x26  Code  Lc  stm32f4xx_hal_tim.o [1]
+Text_FC                 0x0801b5fc    0x18  Data  Gb  layoutData.o [1]
+Time_FC                 0x0801b89c    0x18  Data  Gb  layoutData.o [1]
+UART_DMAAbortOnError    0x08015379    0x12  Code  Lc  stm32f4xx_hal_uart.o [1]
+UART_EndRxTransfer      0x08015319    0x60  Code  Lc  stm32f4xx_hal_uart.o [1]
+UART_EndTransmit_IT     0x080153ef    0x1c  Code  Lc  stm32f4xx_hal_uart.o [1]
+UART_Receive_IT         0x0801540b    0xea  Code  Lc  stm32f4xx_hal_uart.o [1]
+UART_SetConfig          0x080154f5   0x1b0  Code  Lc  stm32f4xx_hal_uart.o [1]
+UART_Transmit_IT        0x0801538d    0x62  Code  Lc  stm32f4xx_hal_uart.o [1]
+UNITS_GT                0x0801883c   0x3f0  Data  Gb  layoutData.o [1]
+USART1_IRQHandler       0x08011849    0x10  Code  Gb  usart.o [1]
+UsageFault_Handler      0x080116fd     0x2  Code  Gb  system.o [1]
+VEP_message_flag        0x20001ac0     0x1  Data  Gb  J1939.o [1]
+Vsync_Filp_Check        0x0800c781    0x30  Code  Gb  Yvc1Ddrv.o [1]
+WARNING_2_GT            0x0801841c   0x420  Data  Gb  layoutData.o [1]
+WARNING_3_GT            0x0801934c   0x348  Data  Gb  layoutData.o [1]
+WaitMSec                0x08000529     0xa  Code  Gb  Yvc1_HAL.o [1]
+Y643_CS_Control         0x080004ed    0x3c  Code  Gb  Yvc1_HAL.o [1]
+YVC1_CpuSetAllLyrDisp   0x0800c9ab    0x40  Code  Gb  Yvc1Lyr.o [1]
+YVC1_FlipTbl            0x0800c4dd   0x102  Code  Gb  Yvc1Ddrv.o [1]
+YVC1_Init               0x0800c22f   0x2ae  Code  Gb  Yvc1Ddrv.o [1]
+YVC1_PmemSet            0x0800bfc1     0xc  Code  Gb  Yvc1Ddrv.o [1]
+YVC1_ReadFlag           0x0800c767    0x1a  Code  Gb  Yvc1Ddrv.o [1]
+YVC1_ReadReg            0x0800c023    0x5a  Code  Gb  Yvc1Ddrv.o [1]
+YVC1_SetChar            0x0800d4bb    0x76  Code  Gb  Yvc1Fontctrl.o [1]
+YVC1_SetFontAttr        0x0800c831    0x54  Code  Gb  Yvc1Lyr.o [1]
+YVC1_SetFontTypAttr     0x0800c885    0x2c  Code  Gb  Yvc1Lyr.o [1]
+YVC1_SetHostContLyrWithFlip
+                        0x0800cafb   0x124  Code  Gb  Yvc1Lyr.o [1]
+YVC1_SetPCharCodes      0x0800c8b1    0x42  Code  Gb  Yvc1Lyr.o [1]
+YVC1_SetSprtAttr        0x0800c7dd    0x54  Code  Gb  Yvc1Lyr.o [1]
+YVC1_SetSprtAttrWithParam
+                        0x0800c9eb   0x110  Code  Gb  Yvc1Lyr.o [1]
+YVC1_VinBcdDisp         0x0800d975    0x66  Code  Gb  Yvc1Vin.o [1]
+YVC1_WritePlts          0x0800c1bd    0x72  Code  Gb  Yvc1Ddrv.o [1]
+YVC1_WriteReg           0x0800bfcd    0x56  Code  Gb  Yvc1Ddrv.o [1]
+YVC1_WriteRegs          0x0800c07d    0x90  Code  Gb  Yvc1Ddrv.o [1]
+YVC1_WriteTbls          0x0800c10d    0xb0  Code  Gb  Yvc1Ddrv.o [1]
+YVC_BurstWritePort      0x08000533    0x54  Code  Gb  Yvc1_HAL.o [1]
+YVC_BurstWritePort::wdt_counter_local
+                        0x20001b73     0x1  Data  Lc  Yvc1_HAL.o [1]
+YVC_ReadPort            0x080005ab    0x38  Code  Gb  Yvc1_HAL.o [1]
+YVC_WritePort           0x08000587    0x24  Code  Gb  Yvc1_HAL.o [1]
+__NVIC_EnableIRQ        0x08011183    0x1a  Code  Lc  stm32f4xx_hal_cortex.o [1]
+__NVIC_GetPriorityGrouping
+                        0x08011179     0xa  Code  Lc  stm32f4xx_hal_cortex.o [1]
+__NVIC_SetPriority      0x0801119d    0x22  Code  Lc  stm32f4xx_hal_cortex.o [1]
+__NVIC_SetPriorityGrouping
+                        0x0801115d    0x1c  Code  Lc  stm32f4xx_hal_cortex.o [1]
+__aeabi_cdcmpeq         0x08015f3d          Code  Gb  DblCmpEq.o [4]
+__aeabi_cdcmple         0x08015fcd          Code  Gb  DblCmpLe.o [4]
+__aeabi_cdrcmple        0x08015ffd          Code  Gb  DblCmpGe.o [4]
+__aeabi_d2f             0x0800b551          Code  Gb  DblToFlt.o [4]
+__aeabi_d2iz            0x0800ce81          Code  Gb  DblToS32.o [4]
+__aeabi_dadd            0x0800cebd          Code  Gb  DblAdd.o [4]
+__aeabi_ddiv            0x0800cc39          Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x0800b335          Code  Gb  DblMul.o [4]
+__aeabi_dsub            0x08013eb1          Code  Gb  DblSub.o [4]
+__aeabi_f2d             0x0800b2ed          Code  Gb  FltToDbl.o [4]
+__aeabi_i2d             0x0800bbb5          Code  Gb  S32ToDbl.o [4]
+__aeabi_ldiv0           0x0801644d          Code  Gb  I64DivZer.o [5]
+__aeabi_memclr4         0x08011155          Code  Gb  ABImemclr4.o [5]
+__aeabi_memcpy4         0x0800d09d          Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy8         0x0800d09d          Code  Gb  ABImemcpy.o [5]
+__aeabi_memset          0x0800d035          Code  Gb  ABImemset.o [5]
+__aeabi_uldivmod        0x08014af1          Code  Gb  I64DivMod.o [5]
+__cmain                 0x0801b559          Code  Gb  cmain.o [5]
+__exit                  0x0801b589    0x14  Code  Gb  exit.o [6]
+__iar_Exp64             0x0801602d   0x3b8  Code  Gb  iar_Exp64.o [4]
+__iar_Memset            0x0800d035          Code  Gb  ABImemset.o [5]
+__iar_Memset4_word      0x08014a65          Code  Gb  ABImemset48.o [5]
+__iar_Memset8_word      0x08014a65          Code  Gb  ABImemset48.o [5]
+__iar_Memset_word       0x0800d03d          Code  Gb  ABImemset.o [5]
+__iar_Pow64             0x08012881   0x654  Code  Lc  pow64.o [4]
+__iar_dadd              0x08013ec1          Code  Gb  DblSub.o [4]
+__iar_data_init3        0x0801b4cd    0x28  Code  Gb  data_init.o [5]
+__iar_dsub              0x0800cecd          Code  Gb  DblAdd.o [4]
+__iar_dsubStart         0x0800cedf          Code  Gb  DblAdd.o [4]
+__iar_frexp             0x08015f69          Code  Gb  frexp.o [4]
+__iar_frexpl            0x08015f69          Code  Gb  frexp.o [4]
+__iar_init_vfp          0x0801b4f5          Code  Gb  fpinit_M.o [4]
+__iar_ldexp64           0x0801646d          Code  Gb  ldexp.o [4]
+__iar_lz77_init_single3
+                        0x0800b4d7    0x7a  Code  Gb  lz77_init_single.o [5]
+__iar_pow64             0x08012f75    0x14  Code  Gb  pow64.o [4]
+__iar_pow_medium        0x08012f75    0x14  Code  Gb  pow64.o [4]
+__iar_pow_medium64      0x08012f75    0x14  Code  Gb  pow64.o [4]
+__iar_pow_mediuml       0x08012f75    0x14  Code  Gb  pow64.o [4]
+__iar_program_start     0x0801b939          Code  Gb  cstartup_M.o [5]
+__iar_scalbln64         0x0801646d          Code  Gb  ldexp.o [4]
+__iar_scalbn64          0x0801646d          Code  Gb  ldexp.o [4]
+__iar_softfp___iar_frexp64
+                        0x08015f5d          Code  Gb  frexp.o [4]
+__iar_softfp_frexp      0x08015f5d          Code  Gb  frexp.o [4]
+__iar_softfp_frexpl     0x08015f5d          Code  Gb  frexp.o [4]
+__iar_systems$$module {Abs}
+                        0x00000001          Data  Gb  command line/config [2]
+__iar_vfp_pow           0x0800bbdd    0x10  Code  Gb  math_wrappers64.o [4]
+__iar_zero_init3        0x0801ae01    0x40  Code  Gb  zero_init3.o [5]
+__low_level_init        0x0801b573     0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000          Data  Gb  startup_stm32f407xx.o [1]
+_call_main              0x0801b565          Code  Gb  cmain.o [5]
+_exit                   0x0801b57d          Code  Gb  cexit.o [5]
+_main                   0x0801b56f          Code  Gb  cmain.o [5]
+acceleration_detection_status_1
+                        0x20001b36     0x1  Data  Gb  J1939.o [1]
+acceleration_detection_status_2
+                        0x20001b37     0x1  Data  Gb  J1939.o [1]
+acceleratorPedalPosition
+                        0x20001b5a     0x1  Data  Gb  Yvc1_HAL.o [1]
+accelerator_interlock_switch
+                        0x20001b24     0x1  Data  Gb  J1939.o [1]
+accelerator_pedal2_low_idle_switch
+                        0x20001aa3     0x1  Data  Gb  J1939.o [1]
+accelerator_pedal2_position
+                        0x20001aa6     0x1  Data  Gb  J1939.o [1]
+accelerator_pedal_kickdown_switch
+                        0x20001aa1     0x1  Data  Gb  J1939.o [1]
+accelerator_pedal_low_idle_switch
+                        0x20001aa0     0x1  Data  Gb  J1939.o [1]
+accelerator_pedal_position
+                        0x20001afb     0x1  Data  Gb  J1939.o [1]
+actual_engine_percent_torque
+                        0x20001aac     0x1  Data  Gb  J1939.o [1]
+actual_engine_percent_torque_high_resolution
+                        0x20001aaa     0x1  Data  Gb  J1939.o [1]
+actual_exhaust_manifold_pressure
+                        0x200019ae     0x2  Data  Gb  J1939.o [1]
+actual_intake_manifold_pressure
+                        0x200019b0     0x2  Data  Gb  J1939.o [1]
+actual_maximum_available_engine_percent_torque
+                        0x20001aa8     0x1  Data  Gb  J1939.o [1]
+actual_nh3_dosing_quantity
+                        0x200019c4     0x2  Data  Gb  J1939.o [1]
+actual_post_injection_amount
+                        0x20001998     0x2  Data  Gb  J1939.o [1]
+adcAverageValue         0x20001740     0xc  Data  Gb  adc.o [1]
+adcValue                0x20001644    0x14  Data  Gb  adc.o [1]
+adc_converter_counter   0x200018d4     0x2  Data  Gb  adc.o [1]
+adc_dma_init            0x0800dc67    0x30  Code  Gb  adc.o [1]
+adc_init                0x0800daeb    0xe0  Code  Gb  adc.o [1]
+after_injection_amount  0x200019bc     0x2  Data  Gb  J1939.o [1]
+aftertreatment1_SCR_catalyst_intake_gas_temperature
+                        0x20001966     0x2  Data  Gb  J1939.o [1]
+aftertreatment1_SCR_catalyst_outlet_gas_temperature
+                        0x20001968     0x2  Data  Gb  J1939.o [1]
+aftertreatment1_SCR_system_state
+                        0x20001ae6     0x1  Data  Gb  J1939.o [1]
+aftertreatment1_diesel_exhaust_fluid_actual_dosing_quantity
+                        0x20001962     0x2  Data  Gb  J1939.o [1]
+aftertreatment1_diesel_exhaust_fluid_actual_dosing_quantity_of_integrator
+                        0x20001964     0x2  Data  Gb  J1939.o [1]
+aftertreatment1_diesel_exhaust_fluid_concentration
+                        0x20001aec     0x1  Data  Gb  J1939.o [1]
+aftertreatment1_diesel_exhaust_fluid_conductivity
+                        0x20001aed     0x1  Data  Gb  J1939.o [1]
+aftertreatment1_diesel_exhaust_fluid_doser_absolute_pressure
+                        0x20001ae7     0x1  Data  Gb  J1939.o [1]
+aftertreatment1_diesel_exhaust_fluid_properties_preliminary_FMI
+                        0x20001aef     0x1  Data  Gb  J1939.o [1]
+aftertreatment1_diesel_exhaust_fluid_property
+                        0x20001af0     0x1  Data  Gb  J1939.o [1]
+aftertreatment1_diesel_exhaust_fluid_tank1_heater_preliminary_FMI
+                        0x20001af8     0x1  Data  Gb  J1939.o [1]
+aftertreatment1_diesel_exhaust_fluid_tank1_low_level_indicator
+                        0x20001af4     0x1  Data  Gb  J1939.o [1]
+aftertreatment1_diesel_exhaust_fluid_tank1_temperature_preliminary_FMI
+                        0x20001af5     0x1  Data  Gb  J1939.o [1]
+aftertreatment1_diesel_exhaust_fluid_tank_heater
+                        0x20001af7     0x1  Data  Gb  J1939.o [1]
+aftertreatment1_diesel_exhaust_fluid_tank_level
+                        0x20001ae8     0x1  Data  Gb  J1939.o [1]
+aftertreatment1_diesel_exhaust_fluid_tank_level2_preliminary_FMI
+                        0x20001af3     0x1  Data  Gb  J1939.o [1]
+aftertreatment1_diesel_exhaust_fluid_tank_level_2
+                        0x2000196a     0x2  Data  Gb  J1939.o [1]
+aftertreatment1_diesel_exhaust_fluid_tank_temperature
+                        0x20001ae9     0x1  Data  Gb  J1939.o [1]
+aftertreatment1_diesel_exhaust_fluid_temperature_2
+                        0x20001aeb     0x1  Data  Gb  J1939.o [1]
+aftertreatment1_diesel_exhaust_fluid_temperature_2_preliminary_FMI
+                        0x20001aee     0x1  Data  Gb  J1939.o [1]
+aftertreatment1_diesel_exhaust_tank1_level
+                        0x20001af1     0x1  Data  Gb  J1939.o [1]
+aftertreatment1_diesel_exhaust_tank1_temperature
+                        0x20001af2     0x1  Data  Gb  J1939.o [1]
+aftertreatment1_diesel_exhaust_tank_level_2
+                        0x2000196c     0x2  Data  Gb  J1939.o [1]
+aftertreatment1_diesel_particulate_filter_differential_pressure
+                        0x20001952     0x2  Data  Gb  J1939.o [1]
+aftertreatment1_diesel_particulate_filter_differential_pressure_preliminary_FMI
+                        0x20001adc     0x1  Data  Gb  J1939.o [1]
+aftertreatment1_diesel_particulate_filter_intake_gas_temperature
+                        0x20001956     0x2  Data  Gb  J1939.o [1]
+aftertreatment1_diesel_particulate_filter_intake_gas_temperature_preliminary_FMI
+                        0x20001adf     0x1  Data  Gb  J1939.o [1]
+aftertreatment1_diesel_particulate_filter_intermediate_gas_temperature
+                        0x20001950     0x2  Data  Gb  J1939.o [1]
+aftertreatment1_diesel_particulate_filter_intermediate_gas_temperature_preliminary_FMI
+                        0x20001add     0x1  Data  Gb  J1939.o [1]
+aftertreatment1_exhaust_gas_temperature_1
+                        0x20001954     0x2  Data  Gb  J1939.o [1]
+aftertreatment1_exhaust_gas_temperature_1_preliminary_FMI
+                        0x20001ade     0x1  Data  Gb  J1939.o [1]
+aftertreatment1_exhaust_gas_temperature_2
+                        0x2000194e     0x2  Data  Gb  J1939.o [1]
+aftertreatment1_exhaust_gas_temperature_2_preliminary_FMI
+                        0x20001adb     0x1  Data  Gb  J1939.o [1]
+aftertreatment_1_exhaust_dew_point
+                        0x20001ab4     0x1  Data  Gb  J1939.o [1]
+aftertreatment_1_exhaust_gas_mass_flow
+                        0x20001926     0x2  Data  Gb  J1939.o [1]
+aftertreatment_1_intake_dew_point
+                        0x20001ab3     0x1  Data  Gb  J1939.o [1]
+aftertreatment_2_exhaust_dew_point
+                        0x20001ab6     0x1  Data  Gb  J1939.o [1]
+aftertreatment_2_intake_dew_point
+                        0x20001ab5     0x1  Data  Gb  J1939.o [1]
+aftertreatment_SCR_operator_inducement_severity
+                        0x20001af6     0x1  Data  Gb  J1939.o [1]
+aftertreatment_selective_catalytic_reduction_operator_inducement_active
+                        0x20001aea     0x1  Data  Gb  J1939.o [1]
+alternator_potential_voltage
+                        0x20001938     0x2  Data  Gb  J1939.o [1]
+amber_warning_lamp_status
+                        0x20001a89     0x1  Data  Gb  J1939.o [1]
+ambient_air_temperature
+                        0x2000192e     0x2  Data  Gb  J1939.o [1]
+amount_of_dpf_ash_accumulation
+                        0x20001994     0x2  Data  Gb  J1939.o [1]
+amount_of_particulate_matter_c_method
+                        0x20001988     0x2  Data  Gb  J1939.o [1]
+amount_of_particulate_matter_f_method
+                        0x2000198e     0x2  Data  Gb  J1939.o [1]
+amount_of_particulate_matter_p_method
+                        0x2000198a     0x2  Data  Gb  J1939.o [1]
+amount_of_particulate_matter_t_method
+                        0x2000198c     0x2  Data  Gb  J1939.o [1]
+analog_sensors          0x08009121   0x71e  Code  Gb  Yvc1_HAL.o [1]
+analog_sensors::ADC_ACCELERATOR
+                        0x200018cc     0x4  Data  Lc  Yvc1_HAL.o [1]
+analog_sensors::ADC_BATTERY
+                        0x200018c8     0x4  Data  Lc  Yvc1_HAL.o [1]
+analog_sensors::ADC_CPU_TEMP
+                        0x200018d0     0x4  Data  Lc  Yvc1_HAL.o [1]
+analog_sensors::ADC_FUEL
+                        0x200018c4     0x4  Data  Lc  Yvc1_HAL.o [1]
+analog_sensors::firstTime
+                        0x200005ba     0x1  Data  Lc  Yvc1_HAL.o [1]
+ash_cleaning_request_flag
+                        0x20001b2f     0x1  Data  Gb  J1939.o [1]
+atr_command_state       0x20001a9f     0x1  Data  Gb  J1939.o [1]
+atr_desired_exit_mode_state
+                        0x20001a9e     0x1  Data  Gb  J1939.o [1]
+atr_encryption_indicator_state
+                        0x20001a9d     0x1  Data  Gb  J1939.o [1]
+atr_password_representation
+                        0x2000184c     0x4  Data  Gb  J1939.o [1]
+atr_password_representation_ascii
+                        0x20001818     0x8  Data  Gb  J1939.o [1]
+ats_component_status_states
+                        0x20001a9b     0x1  Data  Gb  J1939.o [1]
+ats_encryption_seed_present_indicator
+                        0x20001a99     0x1  Data  Gb  J1939.o [1]
+ats_modify_password_state
+                        0x20001a9c     0x1  Data  Gb  J1939.o [1]
+ats_password_valid_indicator
+                        0x20001a9a     0x1  Data  Gb  J1939.o [1]
+ats_random_number       0x20001848     0x4  Data  Gb  J1939.o [1]
+ats_random_number_ascii
+                        0x20001810     0x8  Data  Gb  J1939.o [1]
+auxiliary_engine_shutdown_switch
+                        0x20001ada     0x1  Data  Gb  J1939.o [1]
+available_maximum_speed
+                        0x2000197a     0x2  Data  Gb  J1939.o [1]
+average_fuel_economy    0x20001936     0x2  Data  Gb  J1939.o [1]
+axelControlFunctionEnabled
+                        0x20001a77     0x1  Data  Gb  can.o [1]
+axel_app_sensor1_position
+                        0x200018e8     0x2  Data  Gb  can.o [1]
+axel_app_sensor1_position_max
+                        0x20001a00     0x2  Data  Gb  Yvc1_HAL.o [1]
+axel_app_sensor1_position_min
+                        0x20001a02     0x2  Data  Gb  Yvc1_HAL.o [1]
+axel_app_sensor2_position
+                        0x200018ea     0x2  Data  Gb  can.o [1]
+axel_app_sensor2_position_max
+                        0x20001a04     0x2  Data  Gb  Yvc1_HAL.o [1]
+axel_app_sensor2_position_min
+                        0x20001a06     0x2  Data  Gb  Yvc1_HAL.o [1]
+axel_app_sensor_totalError
+                        0x20001a75     0x1  Data  Gb  can.o [1]
+axel_auger_auto_delay   0x20001a70     0x1  Data  Gb  can.o [1]
+axel_auger_auto_delay_temp
+                        0x20001b67     0x1  Data  Gb  Yvc1_HAL.o [1]
+axel_auger_delay        0x20001a6d     0x1  Data  Gb  can.o [1]
+axel_auger_delay_temp   0x20001b64     0x1  Data  Gb  Yvc1_HAL.o [1]
+axel_auger_ku_time      0x20001a71     0x1  Data  Gb  can.o [1]
+axel_auger_ku_time_temp
+                        0x20001b68     0x1  Data  Gb  Yvc1_HAL.o [1]
+axel_c_speed_ku_time    0x20001a74     0x1  Data  Gb  can.o [1]
+axel_c_speed_ku_time_temp
+                        0x20001b6a     0x1  Data  Gb  Yvc1_HAL.o [1]
+axel_delay_mode         0x20001a76     0x1  Data  Gb  can.o [1]
+axel_keepTimeMode       0x200018ec     0x2  Data  Gb  can.o [1]
+axel_process            0x0800a78d   0x512  Code  Gb  Yvc1_HAL.o [1]
+axel_process::axelAugerMotorEnable
+                        0x20001b7a     0x1  Data  Lc  Yvc1_HAL.o [1]
+axel_process::axelKuEnable
+                        0x20001b7b     0x1  Data  Lc  Yvc1_HAL.o [1]
+axel_process::axelTalkukEnable
+                        0x20001b79     0x1  Data  Lc  Yvc1_HAL.o [1]
+axel_process::kuTime    0x20001a6a     0x2  Data  Lc  Yvc1_HAL.o [1]
+axel_progVer            0x20001a73     0x1  Data  Gb  can.o [1]
+axel_tbs_ku_time        0x20001a72     0x1  Data  Gb  can.o [1]
+axel_tbs_ku_time_temp   0x20001b69     0x1  Data  Gb  Yvc1_HAL.o [1]
+axel_threshing_delay    0x20001a6e     0x1  Data  Gb  can.o [1]
+axel_threshing_delay_temp
+                        0x20001b65     0x1  Data  Gb  Yvc1_HAL.o [1]
+axel_threshing_rpm      0x200018e6     0x2  Data  Gb  can.o [1]
+axel_threshing_rpm_temp
+                        0x20001a08     0x2  Data  Gb  Yvc1_HAL.o [1]
+axel_yeache_ku_time     0x20001a6f     0x1  Data  Gb  can.o [1]
+axel_yeache_ku_time_temp
+                        0x20001b66     0x1  Data  Gb  Yvc1_HAL.o [1]
+back_flow_line_heater_status
+                        0x20001b4b     0x1  Data  Gb  J1939.o [1]
+barometric_pressure     0x20001abc     0x1  Data  Gb  J1939.o [1]
+basic_injection_timing  0x200019ac     0x2  Data  Gb  J1939.o [1]
+battery_potential_voltage_switched
+                        0x2000193c     0x2  Data  Gb  J1939.o [1]
+cab_interior_temperature
+                        0x2000192c     0x2  Data  Gb  J1939.o [1]
+canOneRxData            0x20001770     0x8  Data  Gb  can.o [1]
+canOneRxHeader          0x200015dc    0x1c  Data  Gb  can.o [1]
+canTwoRxData            0x20001778     0x8  Data  Gb  can.o [1]
+canTwoRxHeader          0x200015f8    0x1c  Data  Gb  can.o [1]
+can_3111_data           0x200011c8    0x70  Data  Gb  can.o [1]
+can_3112_data           0x200015b4    0x28  Data  Gb  can.o [1]
+can_3113_data           0x2000174c     0xc  Data  Gb  can.o [1]
+can_312_data            0x20001658    0x14  Data  Gb  can.o [1]
+can_313_data            0x20001720    0x10  Data  Gb  can.o [1]
+can_3141_data           0x20001490    0x48  Data  Gb  can.o [1]
+can_3142_data           0x200017f8     0x8  Data  Gb  can.o [1]
+can_3143_data           0x20001800     0x8  Data  Gb  can.o [1]
+can_315_data            0x200010ac   0x11c  Data  Gb  can.o [1]
+can_341_data            0x20001614    0x18  Data  Gb  can.o [1]
+can_351_data            0x20001730    0x10  Data  Gb  can.o [1]
+can_361_data            0x20001834     0x4  Data  Gb  can.o [1]
+can_data_ck1_FC         0x0801b7ac    0x18  Data  Gb  layoutData.o [1]
+can_data_ck2_FC         0x0801b7c4    0x18  Data  Gb  layoutData.o [1]
+can_data_ck3_FC         0x0801b7dc    0x18  Data  Gb  layoutData.o [1]
+can_data_ck4_FC         0x0801b7f4    0x18  Data  Gb  layoutData.o [1]
+can_data_ck5_FC         0x0801b80c    0x18  Data  Gb  layoutData.o [1]
+can_data_eg1_FC         0x0801b86c    0x18  Data  Gb  layoutData.o [1]
+can_data_eg2_FC         0x0801b854    0x18  Data  Gb  layoutData.o [1]
+can_data_eg3_FC         0x0801b83c    0x18  Data  Gb  layoutData.o [1]
+can_data_eg4_FC         0x0801b824    0x18  Data  Gb  layoutData.o [1]
+can_data_handler        0x080119cd   0x29a  Code  Gb  can.o [1]
+can_dsl_part_fltr_ref_frce_swtch
+                        0x20001b26     0x1  Data  Gb  J1939.o [1]
+can_dsl_part_fltr_ref_inhb_swtch
+                        0x20001b25     0x1  Data  Gb  J1939.o [1]
+can_init                0x08011d99     0x8  Code  Gb  can.o [1]
+can_interrupt_enable_1  0x08011fb7    0x14  Code  Gb  can.o [1]
+can_raw_data_10_FC      0x0801b764    0x18  Data  Gb  layoutData.o [1]
+can_raw_data_11_FC      0x0801b77c    0x18  Data  Gb  layoutData.o [1]
+can_raw_data_12_FC      0x0801b794    0x18  Data  Gb  layoutData.o [1]
+can_raw_data_1_FC       0x0801b68c    0x18  Data  Gb  layoutData.o [1]
+can_raw_data_2_FC       0x0801b6a4    0x18  Data  Gb  layoutData.o [1]
+can_raw_data_3_FC       0x0801b6bc    0x18  Data  Gb  layoutData.o [1]
+can_raw_data_4_FC       0x0801b6d4    0x18  Data  Gb  layoutData.o [1]
+can_raw_data_5_FC       0x0801b6ec    0x18  Data  Gb  layoutData.o [1]
+can_raw_data_6_FC       0x0801b704    0x18  Data  Gb  layoutData.o [1]
+can_raw_data_7_FC       0x0801b71c    0x18  Data  Gb  layoutData.o [1]
+can_raw_data_8_FC       0x0801b734    0x18  Data  Gb  layoutData.o [1]
+can_raw_data_9_FC       0x0801b74c    0x18  Data  Gb  layoutData.o [1]
+can_start               0x08011da1     0x8  Code  Gb  can.o [1]
+check_setting_data      0x08000189   0x11c  Code  Gb  Yvc1_HAL.o [1]
+clockActionNumber       0x20001a0c     0x2  Data  Lc  Yvc1_HAL.o [1]
+command_byte            0x20001b4d     0x1  Data  Gb  J1939.o [1]
+compensation_map_for_nox_efficiency_by_exhaust_gas_mass_flow
+                        0x200019da     0x2  Data  Gb  J1939.o [1]
+compensation_map_for_nox_efficiency_by_no2_nox_ratio
+                        0x200019dc     0x2  Data  Gb  J1939.o [1]
+control_init            0x0800ac9f    0x3a  Code  Gb  Yvc1_HAL.o [1]
+control_process         0x0800acf5    0x30  Code  Gb  Yvc1_HAL.o [1]
+currentPageState        0x20001b5b     0x1  Data  Gb  Yvc1_HAL.o [1]
+current_state_of_the_power_stages_for_heating_for_back_flow_line
+                        0x20001b45     0x1  Data  Gb  J1939.o [1]
+current_state_of_the_power_stages_for_heating_for_pressure_line
+                        0x20001b44     0x1  Data  Gb  J1939.o [1]
+current_state_of_the_power_stages_for_heating_for_suction_line
+                        0x20001b46     0x1  Data  Gb  J1939.o [1]
+current_state_of_the_power_stages_for_heating_for_supply_module
+                        0x20001b43     0x1  Data  Gb  J1939.o [1]
+current_state_of_the_power_stages_for_heating_for_urea_tank
+                        0x20001b42     0x1  Data  Gb  J1939.o [1]
+dataCAN025              0x200017e0     0x8  Data  Gb  can.o [1]
+dataCAN035              0x200017e8     0x8  Data  Gb  can.o [1]
+dataCAN310              0x20001780     0x8  Data  Gb  can.o [1]
+dataCAN311              0x20001788     0x8  Data  Gb  can.o [1]
+dataCAN312              0x20001790     0x8  Data  Gb  can.o [1]
+dataCAN317              0x20001798     0x8  Data  Gb  can.o [1]
+dataCAN330              0x200017a0     0x8  Data  Gb  can.o [1]
+dataCAN331              0x200017a8     0x8  Data  Gb  can.o [1]
+dataCAN332              0x200017b0     0x8  Data  Gb  can.o [1]
+dataCAN340              0x200017b8     0x8  Data  Gb  can.o [1]
+dataCAN350              0x200017c0     0x8  Data  Gb  can.o [1]
+dataCAN360              0x200017c8     0x8  Data  Gb  can.o [1]
+dataCAN381              0x200017d0     0x8  Data  Gb  can.o [1]
+dataCAN390              0x200017d8     0x8  Data  Gb  can.o [1]
+dataReceived            0x20001b57     0x1  Data  Gb  usart.o [1]
+data_diagnostic         0x200017f0     0x8  Data  Gb  can.o [1]
+dcu_bam_flag            0x20001a81     0x1  Data  Gb  J1939.o [1]
+dcu_bam_messsage_size   0x2000191a     0x2  Data  Gb  J1939.o [1]
+dcu_bam_packet_counter  0x20001a83     0x1  Data  Gb  J1939.o [1]
+dcu_bam_packet_size     0x20001a82     0x1  Data  Gb  J1939.o [1]
+dcu_bam_pgn             0x20001844     0x4  Data  Gb  J1939.o [1]
+dcu_bam_timer           0x20001918     0x2  Data  Gb  J1939.o [1]
+dcu_bam_timer_counter   0x20001a93     0x1  Data  Gb  J1939.o [1]
+derate_mode             0x20001b21     0x1  Data  Gb  J1939.o [1]
+detection_mode_state    0x20001b40     0x1  Data  Gb  J1939.o [1]
+deviation_of_nh3_loading_quantity_target_value_estimated_value
+                        0x200019de     0x2  Data  Gb  J1939.o [1]
+diesel_particulate_filter1_ash_load_percent
+                        0x20001ad9     0x1  Data  Gb  J1939.o [1]
+diesel_particulate_filter1_soot_load_percent
+                        0x20001ad8     0x1  Data  Gb  J1939.o [1]
+diesel_particulate_filter1_time_since_last_active_regeneration
+                        0x20001860     0x4  Data  Gb  J1939.o [1]
+diesel_particulate_filter_active_regeneration_forced_status
+                        0x20001ad7     0x1  Data  Gb  J1939.o [1]
+diesel_particulate_filter_active_regeneration_inhibited_PTO_active
+                        0x20001ac9     0x1  Data  Gb  J1939.o [1]
+diesel_particulate_filter_active_regeneration_inhibited_accelerator_pedal_off_idle
+                        0x20001aca     0x1  Data  Gb  J1939.o [1]
+diesel_particulate_filter_active_regeneration_inhibited_clutch_disengaged
+                        0x20001ac7     0x1  Data  Gb  J1939.o [1]
+diesel_particulate_filter_active_regeneration_inhibited_engine_not_warmed_up
+                        0x20001ad3     0x1  Data  Gb  J1939.o [1]
+diesel_particulate_filter_active_regeneration_inhibited_inhibit_switch
+                        0x20001ac6     0x1  Data  Gb  J1939.o [1]
+diesel_particulate_filter_active_regeneration_inhibited_low_exhaust_gas_temperature
+                        0x20001ace     0x1  Data  Gb  J1939.o [1]
+diesel_particulate_filter_active_regeneration_inhibited_out_of_neutral
+                        0x20001acb     0x1  Data  Gb  J1939.o [1]
+diesel_particulate_filter_active_regeneration_inhibited_parking_brake_not_set
+                        0x20001acd     0x1  Data  Gb  J1939.o [1]
+diesel_particulate_filter_active_regeneration_inhibited_permanent_system_lockout
+                        0x20001ad2     0x1  Data  Gb  J1939.o [1]
+diesel_particulate_filter_active_regeneration_inhibited_service_brake_active
+                        0x20001ac8     0x1  Data  Gb  J1939.o [1]
+diesel_particulate_filter_active_regeneration_inhibited_status
+                        0x20001ac5     0x1  Data  Gb  J1939.o [1]
+diesel_particulate_filter_active_regeneration_inhibited_system_fault_active
+                        0x20001acf     0x1  Data  Gb  J1939.o [1]
+diesel_particulate_filter_active_regeneration_inhibited_system_timeout
+                        0x20001ad0     0x1  Data  Gb  J1939.o [1]
+diesel_particulate_filter_active_regeneration_inhibited_temporary_system_lockout
+                        0x20001ad1     0x1  Data  Gb  J1939.o [1]
+diesel_particulate_filter_active_regeneration_inhibited_vehicle_speed_above_allowed_speed
+                        0x20001acc     0x1  Data  Gb  J1939.o [1]
+diesel_particulate_filter_active_regeneration_inhibited_vehicle_speed_below_allowed_speed
+                        0x20001ad4     0x1  Data  Gb  J1939.o [1]
+diesel_particulate_filter_active_regeneration_status
+                        0x20001ac3     0x1  Data  Gb  J1939.o [1]
+diesel_particulate_filter_automatic_active_regeneration_initiation_configuration
+                        0x20001ad5     0x1  Data  Gb  J1939.o [1]
+diesel_particulate_filter_lamp_command
+                        0x20001ac1     0x1  Data  Gb  J1939.o [1]
+diesel_particulate_filter_passive_regeneration_status
+                        0x20001ac2     0x1  Data  Gb  J1939.o [1]
+diesel_particulate_filter_status
+                        0x20001ac4     0x1  Data  Gb  J1939.o [1]
+digital_input1_status   0x20001aff     0x1  Data  Gb  J1939.o [1]
+digital_input2_status   0x20001b00     0x1  Data  Gb  J1939.o [1]
+digital_input3_status   0x20001b02     0x1  Data  Gb  J1939.o [1]
+digital_input4_status   0x20001b03     0x1  Data  Gb  J1939.o [1]
+digital_input5_status   0x20001b06     0x1  Data  Gb  J1939.o [1]
+digital_output1_status  0x20001b01     0x1  Data  Gb  J1939.o [1]
+digital_output2_status  0x20001b04     0x1  Data  Gb  J1939.o [1]
+digital_output3_status  0x20001b05     0x1  Data  Gb  J1939.o [1]
+digital_sensors         0x0800983f     0x8  Code  Gb  Yvc1_HAL.o [1]
+digital_status          0x20001b1f     0x1  Data  Gb  J1939.o [1]
+display_function        0x08008f01    0x8a  Code  Gb  Yvc1_HAL.o [1]
+dma_adc_complete        0x20001a6c     0x1  Data  Gb  adc.o [1]
+doc_surface_temperature
+                        0x20001990     0x2  Data  Gb  J1939.o [1]
+dosing_module_valve_target_duty
+                        0x200019c0     0x2  Data  Gb  J1939.o [1]
+dosing_system_state     0x20001b3d     0x1  Data  Gb  J1939.o [1]
+dosing_system_substate  0x20001b3e     0x1  Data  Gb  J1939.o [1]
+dpf_outlet_no2_nox_ratio
+                        0x2000197e     0x2  Data  Gb  J1939.o [1]
+dpf_regeneration_control_start_flag
+                        0x20001b30     0x1  Data  Gb  J1939.o [1]
+dpf_regeneration_control_status
+                        0x20001b2c     0x1  Data  Gb  J1939.o [1]
+dpf_regeneration_mode_status
+                        0x20001b2b     0x1  Data  Gb  J1939.o [1]
+dpf_regeneration_permission_status
+                        0x20001b32     0x1  Data  Gb  J1939.o [1]
+dpf_regeneration_status
+                        0x20001b33     0x1  Data  Gb  J1939.o [1]
+dpf_regenration_progress_percentage
+                        0x20001b35     0x1  Data  Gb  J1939.o [1]
+dpf_surface_temperature
+                        0x20001992     0x2  Data  Gb  J1939.o [1]
+dpf_temperature_deviation_amount
+                        0x200019a2     0x2  Data  Gb  J1939.o [1]
+dpf_temperature_deviation_amount_intrlop
+                        0x200019a6     0x2  Data  Gb  J1939.o [1]
+draw_logo_page          0x08000fa9    0x96  Code  Gb  Yvc1_HAL.o [1]
+draw_logo_page::logoIndex
+                        0x20001a4e     0x2  Data  Lc  Yvc1_HAL.o [1]
+draw_logo_page::logoTimer
+                        0x20001a50     0x2  Data  Lc  Yvc1_HAL.o [1]
+draw_main_page          0x080010b1   0xcd8  Code  Gb  Yvc1_HAL.o [1]
+draw_main_page::firstTime
+                        0x200005b9     0x1  Data  Lc  Yvc1_HAL.o [1]
+draw_settings_menu      0x08003bc9   0x2ca  Code  Gb  Yvc1_HAL.o [1]
+draw_string             0x08006bad   0x188  Code  Gb  Yvc1_HAL.o [1]
+draw_sub_settings_1     0x08004041   0xe88  Code  Gb  Yvc1_HAL.o [1]
+draw_sub_settings_2     0x08006b7d    0x30  Code  Gb  Yvc1_HAL.o [1]
+draw_sub_settings_21    0x08004f45   0x54c  Code  Gb  Yvc1_HAL.o [1]
+draw_sub_settings_22    0x08005529   0x34a  Code  Gb  Yvc1_HAL.o [1]
+draw_sub_settings_23    0x080058d5   0x36a  Code  Gb  Yvc1_HAL.o [1]
+draw_sub_settings_24    0x08005c5d    0xf8  Code  Gb  Yvc1_HAL.o [1]
+draw_sub_settings_25    0x08005ded   0x84c  Code  Gb  Yvc1_HAL.o [1]
+draw_sub_settings_26    0x08006641   0x134  Code  Gb  Yvc1_HAL.o [1]
+draw_sub_settings_2F    0x080067cd   0x382  Code  Gb  Yvc1_HAL.o [1]
+draw_sub_settings_31    0x08006e19   0xdaa  Code  Gb  Yvc1_HAL.o [1]
+draw_sub_settings_32    0x08007c31   0x51a  Code  Gb  Yvc1_HAL.o [1]
+draw_sub_settings_33    0x0800816d   0x1c8  Code  Gb  Yvc1_HAL.o [1]
+draw_sub_settings_34    0x08008341   0x13e  Code  Gb  Yvc1_HAL.o [1]
+draw_sub_settings_35    0x0800848d   0x104  Code  Gb  Yvc1_HAL.o [1]
+draw_sub_settings_36    0x08008595    0xac  Code  Gb  Yvc1_HAL.o [1]
+draw_sub_settings_4     0x08008641    0x20  Code  Gb  Yvc1_HAL.o [1]
+draw_sub_settings_5     0x08008679   0x2f6  Code  Gb  Yvc1_HAL.o [1]
+draw_sub_settings_6     0x080089e5   0x50a  Code  Gb  Yvc1_HAL.o [1]
+driver_demand_engine_percent_torque
+                        0x20001aab     0x1  Data  Gb  J1939.o [1]
+droop_mode              0x20001b0b     0x1  Data  Gb  J1939.o [1]
+dtc_process             0x0800f051   0x66c  Code  Gb  J1939.o [1]
+ecu_bam_flag            0x20001a7a     0x1  Data  Gb  J1939.o [1]
+ecu_bam_messsage_size   0x20001916     0x2  Data  Gb  J1939.o [1]
+ecu_bam_packet_counter  0x20001a7c     0x1  Data  Gb  J1939.o [1]
+ecu_bam_packet_size     0x20001a7b     0x1  Data  Gb  J1939.o [1]
+ecu_bam_pgn             0x20001840     0x4  Data  Gb  J1939.o [1]
+ecu_bam_timer           0x20001914     0x2  Data  Gb  J1939.o [1]
+ecu_bam_timer_counter   0x20001a92     0x1  Data  Gb  J1939.o [1]
+ecu_error_or_normal     0x20001b1d     0x1  Data  Gb  J1939.o [1]
+ecu_or_dcu_dtc          0x20001a94     0x1  Data  Gb  J1939.o [1]
+eeprom_init             0x0800b021     0x8  Code  Gb  Yvc1_HAL.o [1]
+egr_valve_actual_position
+                        0x20001b2a     0x1  Data  Gb  J1939.o [1]
+egr_valve_target_position
+                        0x20001b27     0x1  Data  Gb  J1939.o [1]
+egr_valve_target_position_calculated
+                        0x20001b28     0x1  Data  Gb  J1939.o [1]
+electrical_potential_voltage
+                        0x2000193a     0x2  Data  Gb  J1939.o [1]
+emergency_mode_status   0x20001b2d     0x1  Data  Gb  J1939.o [1]
+engineHour              0x200018ac     0x4  Data  Gb  Yvc1_HAL.o [1]
+engineOilHour           0x200018b0     0x4  Data  Gb  Yvc1_HAL.o [1]
+engine_air_filter1_differential_pressure
+                        0x20001ae4     0x1  Data  Gb  J1939.o [1]
+engine_air_inlet_pressure
+                        0x20001ae3     0x1  Data  Gb  J1939.o [1]
+engine_air_inlet_temperature
+                        0x20001abd     0x1  Data  Gb  J1939.o [1]
+engine_check_lamp_bam   0x20001a90     0x1  Data  Gb  J1939.o [1]
+engine_control_state    0x20001b20     0x1  Data  Gb  J1939.o [1]
+engine_coolant_filter_differential_pressure
+                        0x20001ae5     0x1  Data  Gb  J1939.o [1]
+engine_coolant_temperature
+                        0x20001ab7     0x1  Data  Gb  J1939.o [1]
+engine_coolant_temperature_counter
+                        0x20001b6f     0x1  Data  Lc  Yvc1_HAL.o [1]
+engine_coolant_temperature_gage
+                        0x20001b6e     0x1  Data  Lc  Yvc1_HAL.o [1]
+engine_coolant_temperature_total
+                        0x20000d8c   0x190  Data  Lc  Yvc1_HAL.o [1]
+engine_demand_percent_torque
+                        0x20001aaf     0x1  Data  Gb  J1939.o [1]
+engine_desired_operating_speed
+                        0x2000196e     0x2  Data  Gb  J1939.o [1]
+engine_desired_operating_speed_asymmetry_adjustment
+                        0x20001ab1     0x1  Data  Gb  J1939.o [1]
+engine_diesel_particulate_filter_inlet_pressure
+                        0x20001ae0     0x1  Data  Gb  J1939.o [1]
+engine_ecu_temperature  0x20001920     0x2  Data  Gb  J1939.o [1]
+engine_egr_differential_pressure
+                        0x20001922     0x2  Data  Gb  J1939.o [1]
+engine_egr_temperature  0x20001924     0x2  Data  Gb  J1939.o [1]
+engine_exhaust_gas_temperature
+                        0x20001960     0x2  Data  Gb  J1939.o [1]
+engine_fuel_actuator1_control_command
+                        0x20001942     0x2  Data  Gb  J1939.o [1]
+engine_fuel_actuator2_control_command
+                        0x20001944     0x2  Data  Gb  J1939.o [1]
+engine_gross_load_ratio_1
+                        0x20001b07     0x1  Data  Gb  J1939.o [1]
+engine_gross_load_ratio_2
+                        0x20001b08     0x1  Data  Gb  J1939.o [1]
+engine_gross_load_ratio_UFO
+                        0x20001b09     0x1  Data  Gb  J1939.o [1]
+engine_gross_load_ratio_smoke_limit
+                        0x20001b0a     0x1  Data  Gb  J1939.o [1]
+engine_iniector_control_pressure
+                        0x20001958     0x2  Data  Gb  J1939.o [1]
+engine_iniector_metering_rail1_pressure
+                        0x2000195a     0x2  Data  Gb  J1939.o [1]
+engine_iniector_metering_rail2_pressure
+                        0x2000195e     0x2  Data  Gb  J1939.o [1]
+engine_iniector_timing_rail1_pressure
+                        0x2000195c     0x2  Data  Gb  J1939.o [1]
+engine_intake_manifold1_pressure
+                        0x20001ae1     0x1  Data  Gb  J1939.o [1]
+engine_intake_manifold1_temperature
+                        0x20001ae2     0x1  Data  Gb  J1939.o [1]
+engine_intercooler_temperature
+                        0x20001ab9     0x1  Data  Gb  J1939.o [1]
+engine_intercooler_thermostat_opening
+                        0x20001aba     0x1  Data  Gb  J1939.o [1]
+engine_oil_temperature  0x20001928     0x2  Data  Gb  J1939.o [1]
+engine_oil_temperature_2
+                        0x2000191e     0x2  Data  Gb  J1939.o [1]
+engine_shutoff_time     0x20001864     0x4  Data  Gb  J1939.o [1]
+engine_speed            0x2000191c     0x2  Data  Gb  J1939.o [1]
+engine_stall            0x20001b18     0x1  Data  Gb  J1939.o [1]
+engine_starter_mode     0x20001aae     0x1  Data  Gb  J1939.o [1]
+engine_stop             0x20001b0f     0x1  Data  Gb  J1939.o [1]
+engine_stop1_sw         0x20001b1a     0x1  Data  Gb  J1939.o [1]
+engine_stop2_sw         0x20001b1b     0x1  Data  Gb  J1939.o [1]
+engine_stop_factor      0x20001972     0x2  Data  Gb  J1939.o [1]
+engine_stop_operation   0x20001b16     0x1  Data  Gb  J1939.o [1]
+engine_throttle_actuator1_control_command
+                        0x2000193e     0x2  Data  Gb  J1939.o [1]
+engine_throttle_actuator2_control_command
+                        0x20001940     0x2  Data  Gb  J1939.o [1]
+engine_torque_mode      0x20001aa9     0x1  Data  Gb  J1939.o [1]
+error_message_ecu       0x20001808     0x8  Data  Gb  J1939.o [1]
+estimated_engine_parasitic_losses_percent_torque
+                        0x20001ab2     0x1  Data  Gb  J1939.o [1]
+estimated_nh3_loading_quantity
+                        0x200019d4     0x2  Data  Gb  J1939.o [1]
+exhaust_gas_lambda      0x20001b29     0x1  Data  Gb  J1939.o [1]
+exhaust_gas_mass_flow   0x20001984     0x2  Data  Gb  J1939.o [1]
+exhaust_gas_volume_flow
+                        0x20001986     0x2  Data  Gb  J1939.o [1]
+exhaust_manifold_pressure_offset_valve
+                        0x200019b2     0x2  Data  Gb  J1939.o [1]
+exhaust_system_high_temperature_lamp_command
+                        0x20001ad6     0x1  Data  Gb  J1939.o [1]
+exhaust_throttle_actual_position
+                        0x20001982     0x2  Data  Gb  J1939.o [1]
+exhaust_throttle_target_position
+                        0x20001980     0x2  Data  Gb  J1939.o [1]
+exit                    0x0801b577     0x4  Code  Gb  exit.o [3]
+external_switch         0x20001b12     0x1  Data  Gb  J1939.o [1]
+factor_to_convert_from_nox_to_nh3
+                        0x200019ce     0x2  Data  Gb  J1939.o [1]
+flag                    0x20001894     0x4  Data  Gb  Yvc1_HAL.o [1]
+flagCan                 0x20001830     0x4  Data  Gb  can.o [1]
+flagInput               0x2000183c     0x4  Data  Gb  input.o [1]
+flagOutput              0x20001874     0x4  Data  Gb  output.o [1]
+flagTimer               0x20001868     0x4  Data  Gb  main.o [1]
+flagWarning             0x20001828     0x8  Data  Gb  Yvc1_HAL.o [1]
+flash_amber_warning_lamp
+                        0x20001a8d     0x1  Data  Gb  J1939.o [1]
+flash_malfunction_indicator_lamp
+                        0x20001a8f     0x1  Data  Gb  J1939.o [1]
+flash_protect_lamp      0x20001a8c     0x1  Data  Gb  J1939.o [1]
+flash_red_stop_lamp     0x20001a8e     0x1  Data  Gb  J1939.o [1]
+ftoa                    0x08000641    0xcc  Code  Gb  Yvc1_HAL.o [1]
+fuel_rate               0x20001932     0x2  Data  Gb  J1939.o [1]
+fuel_temperature        0x20001ab8     0x1  Data  Gb  J1939.o [1]
+getAverageADCValue      0x0800da23    0x18  Code  Gb  adc.o [1]
+governor_mode           0x20001b23     0x1  Data  Gb  J1939.o [1]
+grain_sensor_4_blink    0x20001b6c     0x1  Data  Lc  Yvc1_HAL.o [1]
+hadc1                   0x20001448    0x48  Data  Gb  adc.o [1]
+hcan1                   0x20001564    0x28  Data  Gb  can.o [1]
+hcan2                   0x2000158c    0x28  Data  Gb  can.o [1]
+hdma_adc1               0x2000129c    0x60  Data  Gb  adc.o [1]
+hi2c1                   0x20001354    0x54  Data  Gb  i2c.o [1]
+hi_idle_control         0x20001b0d     0x1  Data  Gb  J1939.o [1]
+high_idle_speed_under_droop_mode
+                        0x20001976     0x2  Data  Gb  J1939.o [1]
+high_idle_speed_under_isochronous_mode
+                        0x20001978     0x2  Data  Gb  J1939.o [1]
+hspi2                   0x200012fc    0x58  Data  Gb  spi.o [1]
+htim1                   0x200014d8    0x48  Data  Gb  timer.o [1]
+huart1                  0x20001520    0x44  Data  Gb  usart.o [1]
+i2c_init                0x0801191d    0x4a  Code  Gb  i2c.o [1]
+imageSwitchOne          0x20001b75     0x1  Data  Gb  Yvc1_HAL.o [1]
+imageSwitchTwo          0x20001b76     0x1  Data  Gb  Yvc1_HAL.o [1]
+immobilizer             0x20001b13     0x1  Data  Gb  J1939.o [1]
+immobilizer_status      0x20001b1e     0x1  Data  Gb  J1939.o [1]
+inc_pic                 0x20001a12     0x2  Data  Lc  Yvc1_HAL.o [1]
+inc_pic_level           0x20001b71     0x1  Data  Lc  Yvc1_HAL.o [1]
+index                   0x200019f0     0x2  Data  Gb  Yvc1_HAL.o [1]
+inducement_severity_for_DEF_tank_level
+                        0x20001b4f     0x1  Data  Gb  J1939.o [1]
+initPatternMemory       0x08013c59    0x44  Code  Gb  Yvc1Pmem.o [1]
+init_93c56              0x0800b049    0x8a  Code  Gb  AT93C56.o [1]
+init_error_msg_ecu      0x0800ef9d    0x68  Code  Gb  J1939.o [1]
+input_flags             0x20001758     0xc  Data  Gb  input.o [1]
+input_init              0x0800bbed    0x66  Code  Gb  input.o [1]
+input_of_operation_information_with_condition
+                        0x20001b0e     0x1  Data  Gb  J1939.o [1]
+input_pins              0x2000002c    0x18  Data  Gb  input.o [1]
+input_ports             0x20000000    0x2c  Data  Gb  input.o [1]
+input_timers            0x2000162c    0x18  Data  Gb  input.o [1]
+instantaneous_fuel_economy
+                        0x20001934     0x2  Data  Gb  J1939.o [1]
+intToStr                0x080005ff    0x3e  Code  Gb  Yvc1_HAL.o [1]
+intake_manifold_pressure_offset_valve
+                        0x200019b4     0x2  Data  Gb  J1939.o [1]
+isFuelLower             0x20001b70     0x1  Data  Lc  Yvc1_HAL.o [1]
+j1939AirFilter          0x20001a97     0x1  Data  Gb  J1939.o [1]
+j1939EngineTempratureError
+                        0x20001a95     0x1  Data  Gb  J1939.o [1]
+j1939OilPressure        0x20001a98     0x1  Data  Gb  J1939.o [1]
+j1939WaterSeparator     0x20001a96     0x1  Data  Gb  J1939.o [1]
+jobHour                 0x200018a8     0x4  Data  Gb  Yvc1_HAL.o [1]
+key_switch_off          0x20001b19     0x1  Data  Gb  J1939.o [1]
+lcd1_value_FC           0x0801b8e4    0x18  Data  Gb  layoutData.o [1]
+lcd2_value_FC           0x0801b8cc    0x18  Data  Gb  layoutData.o [1]
+lcd3_value_FC           0x0801b8b4    0x18  Data  Gb  layoutData.o [1]
+lcdBrigthnessDay        0x200019fc     0x2  Data  Gb  Yvc1_HAL.o [1]
+lcdBrigthnessNight      0x200019fe     0x2  Data  Gb  Yvc1_HAL.o [1]
+lcd_init                0x0800ae6d   0x116  Code  Gb  Yvc1_HAL.o [1]
+lcd_process             0x0800907d    0x9e  Code  Gb  Yvc1_HAL.o [1]
+ldexp                   0x0801646d          Code  Gb  ldexp.o [4]
+ldexpl                  0x0801646d          Code  Gb  ldexp.o [4]
+lnbias                  0x08012f88   0x420  Data  Lc  pow64.o [4]
+load_detection_status_1
+                        0x20001b38     0x1  Data  Gb  J1939.o [1]
+load_detection_status_2
+                        0x20001b39     0x1  Data  Gb  J1939.o [1]
+load_rates              0x200018b8     0x4  Data  Gb  Yvc1_HAL.o [1]
+load_rates_counter      0x20001b74     0x1  Data  Gb  Yvc1_HAL.o [1]
+localEngineHourTimer    0x2000186c     0x4  Data  Gb  main.o [1]
+localJobHourTimer       0x20001870     0x4  Data  Gb  main.o [1]
+low_idle_speed          0x20001974     0x2  Data  Gb  J1939.o [1]
+main                    0x0800b839    0x82  Code  Gb  main.o [1]
+main_injection_amount   0x200019ba     0x2  Data  Gb  J1939.o [1]
+malfunction_indicator_lamp_status
+                        0x20001a8b     0x1  Data  Gb  J1939.o [1]
+memory_update           0x080002a5   0x248  Code  Gb  Yvc1_HAL.o [1]
+missionOilHour          0x200018b4     0x4  Data  Gb  Yvc1_HAL.o [1]
+modelSelection          0x20001b6b     0x1  Data  Gb  Yvc1_HAL.o [1]
+move_next_setup_page    0x20001b61     0x1  Data  Gb  Yvc1_HAL.o [1]
+net_battery_current     0x20001abf     0x1  Data  Gb  J1939.o [1]
+new_setup_data          0x200019f4     0x2  Data  Gb  Yvc1_HAL.o [1]
+new_setup_data_2_received
+                        0x200018f6     0x2  Data  Gb  can.o [1]
+new_setup_data_received
+                        0x200018f4     0x2  Data  Gb  can.o [1]
+new_setup_data_received_flag
+                        0x20001a78     0x1  Data  Gb  can.o [1]
+new_setup_data_received_to_update
+                        0x200019f2     0x2  Data  Gb  Yvc1_HAL.o [1]
+nh3_dosing_quantity_for_loading
+                        0x200019ca     0x2  Data  Gb  J1939.o [1]
+nh3_dosing_quantity_for_purifying
+                        0x200019c8     0x2  Data  Gb  J1939.o [1]
+nh3_dosing_quantity_loading_purifying
+                        0x200019e0     0x2  Data  Gb  J1939.o [1]
+no2_nox_ratio_before_scr
+                        0x200019d2     0x2  Data  Gb  J1939.o [1]
+nominal_friction_percent_torque
+                        0x20001ab0     0x1  Data  Gb  J1939.o [1]
+numberOfEngineOilExchange
+                        0x200019f8     0x2  Data  Gb  Yvc1_HAL.o [1]
+numberOfMissionOilExchange
+                        0x200019fa     0x2  Data  Gb  Yvc1_HAL.o [1]
+number_index            0x20001b62     0x1  Data  Gb  Yvc1_HAL.o [1]
+number_index_blink      0x20001b63     0x1  Data  Gb  Yvc1_HAL.o [1]
+nvAxelAppSensor1PositionMax
+                        0x20001a46     0x2  Data  Gb  Yvc1_HAL.o [1]
+nvAxelAppSensor1PositionMin
+                        0x20001a48     0x2  Data  Gb  Yvc1_HAL.o [1]
+nvAxelAppSensor2PositionMax
+                        0x20001a4a     0x2  Data  Gb  Yvc1_HAL.o [1]
+nvAxelAppSensor2PositionMin
+                        0x20001a4c     0x2  Data  Gb  Yvc1_HAL.o [1]
+nvAxelAppSensorTotalError
+                        0x20001a42     0x2  Data  Gb  Yvc1_HAL.o [1]
+nvAxelAugerAutoDelay    0x20001a34     0x2  Data  Gb  Yvc1_HAL.o [1]
+nvAxelAugerDelay        0x20001a32     0x2  Data  Gb  Yvc1_HAL.o [1]
+nvAxelAugerKuTime       0x20001a3a     0x2  Data  Gb  Yvc1_HAL.o [1]
+nvAxelCSpeedKuTime      0x20001a3c     0x2  Data  Gb  Yvc1_HAL.o [1]
+nvAxelDelayMode         0x20001a44     0x2  Data  Gb  Yvc1_HAL.o [1]
+nvAxelKeepTimeMode      0x20001a40     0x2  Data  Gb  Yvc1_HAL.o [1]
+nvAxelTbsKuTime         0x20001a38     0x2  Data  Gb  Yvc1_HAL.o [1]
+nvAxelThreshingDelay    0x20001a30     0x2  Data  Gb  Yvc1_HAL.o [1]
+nvAxelThreshingRpm      0x20001a3e     0x2  Data  Gb  Yvc1_HAL.o [1]
+nvAxelYeacheKuTime      0x20001a36     0x2  Data  Gb  Yvc1_HAL.o [1]
+nvEngineHourLsb         0x20001a1c     0x2  Data  Gb  Yvc1_HAL.o [1]
+nvEngineHourMsb         0x20001a1a     0x2  Data  Gb  Yvc1_HAL.o [1]
+nvEngineOilHourLsb      0x20001a20     0x2  Data  Gb  Yvc1_HAL.o [1]
+nvEngineOilHourMsb      0x20001a1e     0x2  Data  Gb  Yvc1_HAL.o [1]
+nvJobHourLsb            0x20001a18     0x2  Data  Gb  Yvc1_HAL.o [1]
+nvJobHourMsb            0x20001a16     0x2  Data  Gb  Yvc1_HAL.o [1]
+nvLcdBrigthnessDay      0x20001a2a     0x2  Data  Gb  Yvc1_HAL.o [1]
+nvLcdBrigthnessNight    0x20001a2c     0x2  Data  Gb  Yvc1_HAL.o [1]
+nvMissionOilHourLsb     0x20001a24     0x2  Data  Gb  Yvc1_HAL.o [1]
+nvMissionOilHourMsb     0x20001a22     0x2  Data  Gb  Yvc1_HAL.o [1]
+nvModelSelection        0x20001a2e     0x2  Data  Gb  Yvc1_HAL.o [1]
+nvNumberOfEngineOilExchange
+                        0x20001a26     0x2  Data  Gb  Yvc1_HAL.o [1]
+nvNumberOfMissionOilExchange
+                        0x20001a28     0x2  Data  Gb  Yvc1_HAL.o [1]
+operation_control       0x20001b22     0x1  Data  Gb  J1939.o [1]
+operator_inducement_active_for_SCR_system_failure
+                        0x20001b50     0x1  Data  Gb  J1939.o [1]
+other_engine_stop_operation
+                        0x20001b1c     0x1  Data  Gb  J1939.o [1]
+output_init             0x08010ed1   0x17c  Code  Gb  output.o [1]
+page114_text_FC         0x0801b62c    0x18  Data  Gb  layoutData.o [1]
+page115_text1_FC        0x0801b65c    0x18  Data  Gb  layoutData.o [1]
+page115_text2_FC        0x0801b644    0x18  Data  Gb  layoutData.o [1]
+pcode                   0x080175bc   0x598  Data  Gb  pcode.o [1]
+pcode_fmi               0x08019fe8   0x120  Data  Gb  pcode.o [1]
+pcode_spn               0x08017b54   0x478  Data  Gb  pcode.o [1]
+pending_scr_inducement_severity
+                        0x20001b4e     0x1  Data  Gb  J1939.o [1]
+percent_load_at_current_speed
+                        0x20001aa4     0x1  Data  Gb  J1939.o [1]
+poll_93c56              0x0800b295    0x48  Code  Gb  AT93C56.o [1]
+post_injection_amount   0x200019be     0x2  Data  Gb  J1939.o [1]
+pow                     0x08012f75    0x14  Code  Gb  pow64.o [4]
+power_down_enable       0x20001afd     0x1  Data  Gb  J1939.o [1]
+power_supply_key_position
+                        0x20001afa     0x1  Data  Gb  J1939.o [1]
+powl                    0x08012f75    0x14  Code  Gb  pow64.o [4]
+pre_injection_amount    0x200019b8     0x2  Data  Gb  J1939.o [1]
+preheat_function_acknowledge
+                        0x20001afc     0x1  Data  Gb  J1939.o [1]
+pressure_line_heater_status
+                        0x20001b4a     0x1  Data  Gb  J1939.o [1]
+prevSound               0x2000170c    0x14  Data  Gb  sound.o [1]
+prev_load_rate          0x20001b6d     0x1  Data  Lc  Yvc1_HAL.o [1]
+previousPageState       0x20001b5c     0x1  Data  Gb  Yvc1_HAL.o [1]
+protect_lamp_status     0x20001a88     0x1  Data  Gb  J1939.o [1]
+protection_permission   0x20001b17     0x1  Data  Gb  J1939.o [1]
+pullSound               0x0800d5ab    0x7a  Code  Gb  sound.o [1]
+pushSound               0x0800d531    0x7a  Code  Gb  sound.o [1]
+readPtnmemDataPort      0x08013e3d    0x28  Code  Lc  Yvc1Pmem.o [1]
+readStatusRegCommand    0x08013d53    0x94  Code  Lc  Yvc1Pmem.o [1]
+read_93c56              0x0800b23f    0x56  Code  Gb  AT93C56.o [1]
+read_inputs             0x0800bc6b   0x176  Code  Gb  input.o [1]
+read_tail_light         0x0800bc53    0x18  Code  Gb  input.o [1]
+red_stop_lamp_status    0x20001a8a     0x1  Data  Gb  J1939.o [1]
+reduction_agent_pump_motor_target_duty
+                        0x200019c2     0x2  Data  Gb  J1939.o [1]
+reduction_agent_reverting_valve_state
+                        0x20001b3f     0x1  Data  Gb  J1939.o [1]
+remaining_preheat_time  0x20001afe     0x1  Data  Gb  J1939.o [1]
+remaining_restored_operation
+                        0x20001b51     0x1  Data  Gb  J1939.o [1]
+remote_accelerator      0x20001aa5     0x1  Data  Gb  J1939.o [1]
+required_dpf_regeneration_status
+                        0x20001b31     0x1  Data  Gb  J1939.o [1]
+restored_operation_time_remaining
+                        0x200019ec     0x2  Data  Gb  J1939.o [1]
+reverse                 0x080005e3    0x1c  Code  Gb  Yvc1_HAL.o [1]
+road_speed_limit_status
+                        0x20001aa2     0x1  Data  Gb  J1939.o [1]
+road_surface_temperature
+                        0x20001930     0x2  Data  Gb  J1939.o [1]
+row_selection           0x20001b60     0x1  Data  Gb  Yvc1_HAL.o [1]
+rpm                     0x20001888     0x4  Data  Gb  RPM.o [1]
+rpmCAN                  0x200019ee     0x2  Data  Gb  RPM.o [1]
+rpmNew                  0x20001880     0x4  Data  Gb  RPM.o [1]
+rpmOld                  0x20001884     0x4  Data  Gb  RPM.o [1]
+rpmPrevious             0x2000188c     0x4  Data  Gb  RPM.o [1]
+rpmTimerCaptured        0x20001878     0x4  Data  Gb  RPM.o [1]
+rpmTimerCapturedCAN     0x2000187c     0x4  Data  Gb  RPM.o [1]
+rpm_process             0x08010d4d   0x134  Code  Gb  RPM.o [1]
+run_bootloader          0x080119c5     0x8  Code  Gb  can.o [1]
+s_EXLY_LYBSELC_Chk      0x0800c991    0x1a  Code  Lc  Yvc1Lyr.o [1]
+s_Exly_TblWrite         0x0800c949    0x48  Code  Lc  Yvc1Lyr.o [1]
+s_FBWait                0x0800c5df    0x38  Code  Lc  Yvc1Ddrv.o [1]
+s_GeneralTblInit        0x0800c665    0x98  Code  Lc  Yvc1Ddrv.o [1]
+s_INIENDWaitPolling     0x0800c629    0x34  Code  Lc  Yvc1Ddrv.o [1]
+s_LYBSELC_Chk           0x0800c93b     0xe  Code  Lc  Yvc1Lyr.o [1]
+s_PtnMemReadAcs_Reg7_Data
+                        0x0800c72b    0x3c  Code  Lc  Yvc1Ddrv.o [1]
+s_TblWrite              0x0800c8f3    0x48  Code  Lc  Yvc1Lyr.o [1]
+s_WriteRegPll           0x0800c6fd    0x2e  Code  Lc  Yvc1Ddrv.o [1]
+safety_relay_operation  0x20001b10     0x1  Data  Gb  J1939.o [1]
+savedSound              0x200016f8    0x14  Data  Gb  sound.o [1]
+scalbln                 0x0801646d          Code  Gb  ldexp.o [4]
+scalblnl                0x0801646d          Code  Gb  ldexp.o [4]
+scalbn                  0x0801646d          Code  Gb  ldexp.o [4]
+scalbnl                 0x0801646d          Code  Gb  ldexp.o [4]
+scr_catalyst_average_temperature
+                        0x200019e4     0x2  Data  Gb  J1939.o [1]
+scr_catalyst_efficiency
+                        0x200019d6     0x2  Data  Gb  J1939.o [1]
+scr_catalyst_inlet_nox_concentration
+                        0x200019c6     0x2  Data  Gb  J1939.o [1]
+scr_catalyst_outlet_nox_concentration_after_compensation
+                        0x200019d0     0x2  Data  Gb  J1939.o [1]
+scr_catalyst_outlet_nox_concentration_model_value
+                        0x200019d8     0x2  Data  Gb  J1939.o [1]
+scr_catalyst_surface_temperature
+                        0x20001996     0x2  Data  Gb  J1939.o [1]
+scr_catalyst_temperature_at_engine_shutoff
+                        0x200019e8     0x2  Data  Gb  J1939.o [1]
+scr_catalyst_temperature_initial_valve
+                        0x200019e6     0x2  Data  Gb  J1939.o [1]
+scr_control_status      0x20001b34     0x1  Data  Gb  J1939.o [1]
+scr_feed_back_control_compensation_factor
+                        0x200019cc     0x2  Data  Gb  J1939.o [1]
+scr_feedback_control_active_status
+                        0x20001b41     0x1  Data  Gb  J1939.o [1]
+send_cmd_93c56          0x0800b13f    0x34  Code  Gb  AT93C56.o [1]
+sensor_ecu_supply_voltage_1
+                        0x20001946     0x2  Data  Gb  J1939.o [1]
+sensor_ecu_supply_voltage_2
+                        0x20001948     0x2  Data  Gb  J1939.o [1]
+sensor_ecu_supply_voltage_3
+                        0x2000194a     0x2  Data  Gb  J1939.o [1]
+sensor_ecu_supply_voltage_4
+                        0x2000194c     0x2  Data  Gb  J1939.o [1]
+sensor_process          0x08009849   0x160  Code  Gb  Yvc1_HAL.o [1]
+sensor_process::prevTaillamp
+                        0x200005bb     0x1  Data  Lc  Yvc1_HAL.o [1]
+sensor_process::timerEngineOff
+                        0x20001a5c     0x2  Data  Lc  Yvc1_HAL.o [1]
+sensor_process::timerEngineOn
+                        0x20001a5a     0x2  Data  Lc  Yvc1_HAL.o [1]
+set_setting_sound       0x0800d701    0x52  Code  Gb  sound.o [1]
+set_warning_sound       0x0800d753    0x4a  Code  Gb  sound.o [1]
+settingsData            0x20000418   0x150  Data  Gb  Yvc1_HAL.o [1]
+settings_pass           0x20001764     0xc  Data  Gb  Yvc1_HAL.o [1]
+settings_time           0x20001820     0x8  Data  Gb  Yvc1_HAL.o [1]
+setup_mode              0x20001b5d     0x1  Data  Gb  Yvc1_HAL.o [1]
+setup_mode_address      0x200019f6     0x2  Data  Gb  Yvc1_HAL.o [1]
+setup_mode_rw           0x20001b5f     0x1  Data  Gb  Yvc1_HAL.o [1]
+setup_mode_type         0x20001b5e     0x1  Data  Gb  Yvc1_HAL.o [1]
+shift_in_bit_93c56      0x0800b10f    0x30  Code  Gb  AT93C56.o [1]
+shift_out_bit_93c56     0x0800b0d3    0x3c  Code  Gb  AT93C56.o [1]
+shift_word_93c56        0x0800b173    0x24  Code  Gb  AT93C56.o [1]
+shutdown_requests       0x20001af9     0x1  Data  Gb  J1939.o [1]
+smoke_limit_injection_volume
+                        0x200019b6     0x2  Data  Gb  J1939.o [1]
+smoke_limit_injection_volume_lambda_minimum_value
+                        0x20001b3c     0x1  Data  Gb  J1939.o [1]
+sound                   0x200016e4    0x14  Data  Gb  sound.o [1]
+sound_clear             0x0800d625    0xdc  Code  Gb  sound.o [1]
+sound_process           0x0800d79d   0x1c8  Code  Gb  sound.o [1]
+source_address_of_controlling_device_for_engine_control
+                        0x20001aad     0x1  Data  Gb  J1939.o [1]
+spi2_enable             0x0800b9c5    0x12  Code  Gb  spi.o [1]
+spi_init                0x0800b9d7    0x5e  Code  Gb  spi.o [1]
+startConversation       0x0800d9e1    0x42  Code  Gb  adc.o [1]
+starter_over_time       0x20001b14     0x1  Data  Gb  J1939.o [1]
+starter_protection      0x20001b0c     0x1  Data  Gb  J1939.o [1]
+starter_protection_factor
+                        0x20001970     0x2  Data  Gb  J1939.o [1]
+stationary_regeneration_request_flag
+                        0x20001b2e     0x1  Data  Gb  J1939.o [1]
+strlen                  0x08013f95          Code  Gb  strlen.o [5]
+suction_line_heater_status
+                        0x20001b4c     0x1  Data  Gb  J1939.o [1]
+supply_module_heater_status
+                        0x20001b49     0x1  Data  Gb  J1939.o [1]
+supply_module_temperature
+                        0x200019e2     0x2  Data  Gb  J1939.o [1]
+tAccelBuffer            0x20000f1c   0x190  Data  Gb  Yvc1_HAL.o [1]
+tAccelBufferCounter     0x20001b78     0x1  Data  Gb  Yvc1_HAL.o [1]
+tAccelTotal             0x200018c0     0x4  Data  Gb  Yvc1_HAL.o [1]
+tEngineSpeed            0x200018a4     0x4  Data  Gb  Yvc1_HAL.o [1]
+tFontData               0x0801281c    0x64  Data  Lc  layoutData.o [1]
+tFuelGage               0x20001b58     0x1  Data  Gb  Yvc1_HAL.o [1]
+tFuelPercent            0x20001b59     0x1  Data  Gb  Yvc1_HAL.o [1]
+tFuelPercentBuffer      0x20001238    0x64  Data  Gb  Yvc1_HAL.o [1]
+tFuelPercentBufferCounter
+                        0x20001b77     0x1  Data  Gb  Yvc1_HAL.o [1]
+tFuelPercentTotal       0x200018bc     0x4  Data  Gb  Yvc1_HAL.o [1]
+tFuelVoltage            0x2000189c     0x4  Data  Gb  Yvc1_HAL.o [1]
+tPowerVoltage           0x20001898     0x4  Data  Gb  Yvc1_HAL.o [1]
+tTemperature            0x200018a0     0x4  Data  Gb  Yvc1_HAL.o [1]
+tYgfntPData_0           0x0801a108   0x100  Data  Lc  layoutData.o [1]
+tYgfntPData_1           0x0801a208   0x100  Data  Lc  layoutData.o [1]
+tYgfntPData_2           0x0801a308   0x100  Data  Lc  layoutData.o [1]
+tYgfntPData_3           0x0801a408   0x100  Data  Lc  layoutData.o [1]
+tYgfntPData_4           0x0801a508   0x100  Data  Lc  layoutData.o [1]
+tYgfntTbl_0             0x0801b94c     0x8  Data  Lc  layoutData.o [1]
+tYgfntTbl_1             0x0801b954     0x8  Data  Lc  layoutData.o [1]
+tYgfntTbl_2             0x0801b95c     0x8  Data  Lc  layoutData.o [1]
+tYgfntTbl_3             0x0801b964     0x8  Data  Lc  layoutData.o [1]
+tYgfntTbl_4             0x0801b96c     0x8  Data  Lc  layoutData.o [1]
+tYvc1Data               0x0801afa0    0x34  Data  Lc  Yvc1_HAL.o [1]
+target_after_injection_amount
+                        0x2000199a     0x2  Data  Gb  J1939.o [1]
+target_dpf_temperature  0x200019a4     0x2  Data  Gb  J1939.o [1]
+target_dpf_temperature_outrlop
+                        0x200019a0     0x2  Data  Gb  J1939.o [1]
+target_engine_speed     0x200019a8     0x2  Data  Gb  J1939.o [1]
+target_injection_amount
+                        0x200019aa     0x2  Data  Gb  J1939.o [1]
+target_intake_pressure  0x20001b3a     0x1  Data  Gb  J1939.o [1]
+target_intake_throttle_rate
+                        0x20001b3b     0x1  Data  Gb  J1939.o [1]
+target_nox_final_valve  0x2000197c     0x2  Data  Gb  J1939.o [1]
+target_post_injection_correction_amount
+                        0x2000199c     0x2  Data  Gb  J1939.o [1]
+throttle_position       0x20001abe     0x1  Data  Gb  J1939.o [1]
+tim1_init               0x0800be83   0x102  Code  Gb  timer.o [1]
+timeClockAction         0x20001a0e     0x2  Data  Lc  Yvc1_HAL.o [1]
+timeECUError            0x20001a10     0x2  Data  Lc  Yvc1_HAL.o [1]
+time_process            0x080099e9   0x1ca  Code  Gb  Yvc1_HAL.o [1]
+time_remaining_at_present_inducement
+                        0x200019ea     0x2  Data  Gb  J1939.o [1]
+timerImageSwitchOne     0x20001a56     0x2  Data  Gb  Yvc1_HAL.o [1]
+timerImageSwitchTwo     0x20001a58     0x2  Data  Gb  Yvc1_HAL.o [1]
+timerKuRPMDelay         0x20001a68     0x2  Data  Gb  Yvc1_HAL.o [1]
+timer_data_025          0x200018f8     0x2  Data  Gb  can.o [1]
+timer_data_035          0x200018fa     0x2  Data  Gb  can.o [1]
+timer_data_310          0x200018fc     0x2  Data  Gb  can.o [1]
+timer_data_311          0x200018fe     0x2  Data  Gb  can.o [1]
+timer_data_312          0x20001900     0x2  Data  Gb  can.o [1]
+timer_data_317          0x20001902     0x2  Data  Gb  can.o [1]
+timer_data_330          0x20001908     0x2  Data  Gb  can.o [1]
+timer_data_331          0x2000190a     0x2  Data  Gb  can.o [1]
+timer_data_332          0x2000190c     0x2  Data  Gb  can.o [1]
+timer_data_340          0x20001904     0x2  Data  Gb  can.o [1]
+timer_data_350          0x20001906     0x2  Data  Gb  can.o [1]
+timer_data_360          0x2000190e     0x2  Data  Gb  can.o [1]
+timer_data_381          0x20001912     0x2  Data  Gb  can.o [1]
+timer_data_390          0x20001910     0x2  Data  Gb  can.o [1]
+timer_init              0x0800bf85    0x16  Code  Gb  timer.o [1]
+timer_operator_inducement_active_for_SCR_system_failure
+                        0x20001a52     0x2  Data  Gb  Yvc1_HAL.o [1]
+timer_pending_scr_inducement_severity
+                        0x20001a54     0x2  Data  Gb  Yvc1_HAL.o [1]
+timer_process           0x0800b8cf    0x98  Code  Gb  main.o [1]
+timer_process::tm100ms  0x20001b56     0x1  Data  Lc  main.o [1]
+timer_process::tm10ms   0x20001b55     0x1  Data  Lc  main.o [1]
+timer_process::tm1ms    0x20001b53     0x1  Data  Lc  main.o [1]
+timer_process::tm2ms    0x20001b54     0x1  Data  Lc  main.o [1]
+totalAdcValue           0x200005bc   0x7d0  Data  Gb  adc.o [1]
+total_engine_hours      0x20001850     0x4  Data  Gb  J1939.o [1]
+total_engine_revolution
+                        0x20001854     0x4  Data  Gb  J1939.o [1]
+total_injection_amount  0x2000199e     0x2  Data  Gb  J1939.o [1]
+total_trip_fuel         0x2000185c     0x4  Data  Gb  J1939.o [1]
+transmitBegin           0x20001b52     0x1  Data  Gb  main.o [1]
+trip_fuel               0x20001858     0x4  Data  Gb  J1939.o [1]
+turbo_oil_temperature   0x2000192a     0x2  Data  Gb  J1939.o [1]
+tw9990_init             0x08011725   0x11c  Code  Gb  tw9990.o [1]
+u08PatternMemorySettings
+                        0x20000568    0x50  Data  Gb  Yvc1Pmem.o [1]
+under_ECU_initial_operation
+                        0x20001b11     0x1  Data  Gb  J1939.o [1]
+updateLastAverageADC    0x0800da3d    0xae  Code  Gb  adc.o [1]
+update_bam_timer        0x0800e0c1    0x62  Code  Gb  J1939.o [1]
+update_hours            0x080099a9    0x3a  Code  Gb  Yvc1_HAL.o [1]
+update_pages_back       0x080008c9   0x694  Code  Gb  Yvc1_HAL.o [1]
+update_timer            0x0800bf9b     0xa  Code  Gb  timer.o [1]
+urea_heater_control_heater_status
+                        0x20001b47     0x1  Data  Gb  J1939.o [1]
+urea_tank_heating_valve_status
+                        0x20001b48     0x1  Data  Gb  J1939.o [1]
+usart_init              0x08011869    0x44  Code  Gb  usart.o [1]
+user_delay              0x0800b981    0x1a  Code  Gb  main.o [1]
+uwTick                  0x20001890     0x4  Data  Gb  stm32f4xx_hal.o [1]
+uwTickFreq              0x200005b8     0x1  Data  Gb  stm32f4xx_hal.o [1]
+uwTickPrio              0x20000044     0x4  Data  Gb  stm32f4xx_hal.o [1]
+value_FC                0x0801b674    0x18  Data  Gb  layoutData.o [1]
+vehicle_acceleration_rate_limit_status
+                        0x20001aa7     0x1  Data  Gb  J1939.o [1]
+waitClearFlag           0x08013cf3    0x26  Code  Lc  Yvc1Pmem.o [1]
+warning_check_lamp_bam  0x20001a91     0x1  Data  Gb  J1939.o [1]
+warning_flag_checker    0x08009c09   0x56a  Code  Gb  Yvc1_HAL.o [1]
+warning_process         0x0800a1ed   0x57c  Code  Gb  Yvc1_HAL.o [1]
+warning_process::timerBatteryOff
+                        0x20001a64     0x2  Data  Lc  Yvc1_HAL.o [1]
+warning_process::timerBatteryOn
+                        0x20001a62     0x2  Data  Lc  Yvc1_HAL.o [1]
+warning_process::timerFuelLow
+                        0x20001a66     0x2  Data  Lc  Yvc1_HAL.o [1]
+warning_process::timerToCheckWarning
+                        0x20001a60     0x2  Data  Lc  Yvc1_HAL.o [1]
+warning_process::timerWarningCharge
+                        0x20001a5e     0x2  Data  Lc  Yvc1_HAL.o [1]
+warnings                0x2000004c   0x3cc  Data  Gb  Yvc1_HAL.o [1]
+watchdog_disable        0x0800bb8d     0xe  Code  Gb  watchdog.o [1]
+watchdog_enable         0x0800bb71    0x1c  Code  Gb  watchdog.o [1]
+watchdog_init           0x0800ba91    0xe0  Code  Gb  watchdog.o [1]
+watchdog_trigger        0x0800bb9b     0xc  Code  Gb  watchdog.o [1]
+writeEnableCommand      0x08013e65    0x4a  Code  Lc  Yvc1Pmem.o [1]
+writePmaRegs            0x08013d25    0x2e  Code  Lc  Yvc1Pmem.o [1]
+writePtnmemCtrlRegs     0x08013c9d    0x56  Code  Lc  Yvc1Pmem.o [1]
+writeStatusRegCommand   0x08013de7    0x56  Code  Lc  Yvc1Pmem.o [1]
+write_93c56             0x0800b1ff    0x40  Code  Gb  AT93C56.o [1]
+write_disable_93c56     0x0800b1cb    0x34  Code  Gb  AT93C56.o [1]
+write_enable_93c56      0x0800b197    0x34  Code  Gb  AT93C56.o [1]
+write_outputs           0x0801104d    0xec  Code  Gb  output.o [1]
+yec_status              0x20001b15     0x1  Data  Gb  J1939.o [1]
+ygb643_tw9990_initialize
+                        0x08000817    0x22  Code  Gb  Yvc1_HAL.o [1]
+ygv643_init             0x0800ad25   0x12c  Code  Gb  Yvc1_HAL.o [1]
+ygv643_initialize       0x0800070d   0x10a  Code  Gb  Yvc1_HAL.o [1]
+
+
+[1] = C:\TSEVEENEE\4combine\combine\20250605\EWARM\Combine\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = m7M_tls.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  92 003 bytes of readonly  code memory
+  21 846 bytes of readonly  data memory
+   8 060 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
