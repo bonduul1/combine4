@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<userOverrides>
+    <override>
+        <path>C:\Users\User\Documents\2 - KUKJE\Combine\1-Source\20250116\CAN\can.h</path>
+        <encoding>System</encoding>
+    </override>
+    <override>
+        <path>C:\Users\User\Documents\2 - KUKJE\Combine\20240528\EEPROM\AT93C56.H</path>
+        <encoding>System</encoding>
+    </override>
+    <override>
+        <path>C:\Users\User\Documents\2 - KUKJE\Combine\20240528\VC1W\Yvc1Ddrv.c</path>
+        <encoding>System</encoding>
+    </override>
+</userOverrides>
